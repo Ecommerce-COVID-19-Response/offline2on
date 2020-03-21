@@ -2,11 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import MerchantForm from '../components/forms/MerchantForm'
-import Features from '../components/Features'
-import Testimonials from '../components/Testimonials'
-import Pricing from '../components/Pricing'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import AgencyForm from '../components/forms/AgencyForm'
 
 export const AgencyPageTemplate = ({
   title,
