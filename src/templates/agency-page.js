@@ -37,7 +37,7 @@ export const AgencyPageTemplate = ({
             </div>
             <div className="column is-5 is-offset-1">
               <h3 className="has-text-weight-semibold is-size-2">Contact Form</h3>
-              <MerchantForm /> 
+              <AgencyForm /> 
             </div>
           </div>
         </div>
