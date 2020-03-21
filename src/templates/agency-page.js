@@ -8,7 +8,7 @@ import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
-export const SimplePageTemplate = ({
+export const AgencyPageTemplate = ({
   title,
   heading,
   description,
@@ -46,7 +46,7 @@ export const SimplePageTemplate = ({
   </div>
 )
 
-SimplePageTemplate.propTypes = {
+AgencyPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
@@ -70,12 +70,12 @@ SimplePageTemplate.propTypes = {
   }),
 }
 
-const SimplePage = ({ data }) => {
+const AgencyPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
     <Layout>
-      <SimplePageTemplate
+      <AgencyPageTemplate
         title={frontmatter.title}
         heading={frontmatter.heading}
         description={frontmatter.description}
@@ -86,7 +86,7 @@ const SimplePage = ({ data }) => {
   )
 }
 
-SimplePage.propTypes = {
+AgencyPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
@@ -94,10 +94,10 @@ SimplePage.propTypes = {
   }),
 }
 
-export default SimplePage
+export default AgencyPage
 
-export const SimplePageQuery = graphql`
-  query SimplePage($id: String!) {
+export const AgencyPageQuery = graphql`
+  query AgencyPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
