@@ -76,12 +76,12 @@ module.exports = {
     {
       resolve: `gatsby-source-airtable`,
       options: {
-        apiKey: `keyzPBryOn57sEXeF`,
+        apiKey: `key5z5Js4uWvuhCrl`,
         concurrency: 5,
         tables: [
           {
-            baseId: `applFwG4oIRWUq6t2`,
-            tableName: `Directory`,
+            baseId: `appV4LIboIx2HjYk4`,
+            tableName: `General`,
             defaultValues: {
               'Contact_Name': '',
               'Email': '',
@@ -93,7 +93,7 @@ module.exports = {
               'Location': '',
               'Notes': '',
               'Agency_Expertise': '',
-              'Agency_Platforms': '',
+              'Platforms': '',
               'Type': '', // Agency | Merchant
               'Created_At': '',
               'Updated_At': '',

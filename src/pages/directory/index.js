@@ -51,7 +51,7 @@ export default function DirectoryPage({ data }) {
 export const query = graphql`
   query DirectoryPageQuery {
     allAirtable(
-      filter: { table: { eq: "Directory" }, data: { Published: { eq: true }, Type: {eq: "Agency"} } }
+      filter: { table: { eq: "General" }, data: { Published: { eq: true } } }
     ) {
       edges {
         node {
@@ -70,7 +70,7 @@ export const query = graphql`
             Merchant_Budget
             Merchant_Ships
             Agency_Expertise
-            Agency_Platforms
+            Platforms
           }
         }
       }
