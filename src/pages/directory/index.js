@@ -51,7 +51,7 @@ export default function DirectoryPage({ data }) {
 export const query = graphql`
   query DirectoryPageQuery {
     allAirtable(
-      filter: { table: { eq: "Directory" }, data: { Published: { eq: true } } }
+      filter: { table: { eq: "Directory" }, data: { Published: { eq: true }, Type: {eq: "Agency"} } }
     ) {
       edges {
         node {
