@@ -12,7 +12,7 @@ export default function IndexPage() {
         <div className="max-w-screen-lg px-4 py-10 mx-auto sm:py-12 sm:px-6 md:py-16 lg:py-20 xl:py-28">
           <div className="text-center">
             <h2 className="font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
-              eCommerce Community Support & Resources for Merchant
+              eCommerce Community Support & Resources for Merchants
             </h2>
             <p className="max-w-md mx-auto mt-3 text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
               Offline2on.com is a community-led, not for profit, cross platform
