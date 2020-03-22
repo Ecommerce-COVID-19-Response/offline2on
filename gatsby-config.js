@@ -73,5 +73,35 @@ module.exports = {
       },
     }, // must be after other CSS plugins
     'gatsby-plugin-netlify', // make sure to keep it last in the array
+    {
+      resolve: `gatsby-source-airtable`,
+      options: {
+        apiKey: `keyzPBryOn57sEXeF`,
+        concurrency: 5,
+        tables: [
+          {
+            baseId: `applFwG4oIRWUq6t2`,
+            tableName: `Directory`,
+            defaultValues: {
+              'Contact_Name': '',
+              'Email': '',
+              'Phone': '',
+              'Business_Name': '',
+              'Merchant_Vertical': '',
+              'Merchant_Ships': false,
+              'Merchant_Budget': '',
+              'Location': '',
+              'Notes': '',
+              'Agency_Expertise': '',
+              'Agency_Platforms': '',
+              'Type': '', // Agency | Merchant
+              'Created_At': '',
+              'Updated_At': '',
+              'Published': false,
+            }
+          }
+        ]
+      }
+    },
   ],
 }
