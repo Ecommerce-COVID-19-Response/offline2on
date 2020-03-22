@@ -25,14 +25,13 @@ const AgencyForm = () =>
         <div className="control"><input className="input" type="text" name="business-name" id="business-name" /> </div>
       </div>
       <div className="field">
-        <label htmlFor="services">My Expertise are: </label>
-        <div className="control"><input className="input" type="text" name="services" id="services" /> </div>
+        <label htmlFor="expertise">My Expertise are: </label>
+        <div className="control"><input className="input" type="text" name="expertise" id="expertise" /> </div>
         <span className="form-hint">Tell us more about how you can help merchants.</span>
       </div>
       <div className="field">
-        <label htmlFor="services">Which Platforms you work with: </label>
-        <div className="control"><input className="input" type="text" name="services" id="services" /> </div>
-        <span className="form-hint">Tell us more about how you can help merchants.</span>
+        <label htmlFor="platforms">Which Platforms you work with: </label>
+        <div className="control"><input className="input" type="text" name="platforms" id="platforms" /> </div>
       </div>
       <div className="field">
         <label htmlFor="location">Where are you located?</label>
