@@ -1,8 +1,8 @@
 ---
 templateKey: 'merchant-page'
 path: /merchants
-title: For Merchants
+title: ForMerchants
 heading: Advice and Information for Merchants
 description: >-
-  Placeholder definition and some description of what resources we can offer or be made available .
+  In order to get you online as fast as possible, please send this form. We'll forward your request to the best matching contact for you.
 

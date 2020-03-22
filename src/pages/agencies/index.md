@@ -4,5 +4,4 @@ path: /agencies
 title: For Agencies
 heading: Can you help?
 description: >-
-  Placeholder definition and some description of what resources we can offer or be made available .
-
+  Worldwide many agencies freed up capacities to help offline merchants get online fast. Depending on your budget we catered a list of agencies based on your platform option.
