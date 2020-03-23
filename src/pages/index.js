@@ -1,5 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
+import GettingStarted from '../components/HomePage/GettingStarted';
+
 import socialDistancing from '../img/social-distancing.svg';
 import global from '../img/global.svg';
 import eCommerce from '../img/ecommerce.svg';
@@ -38,7 +40,7 @@ export default function IndexPage() {
       {/* Mission */}
       <div className="max-w-screen-lg px-4 mx-auto my-32 text-lg">
         <div className="relative text-center">
-          <h2 className="inline-block text-5xl font-semibold text-gray-900">
+          <h2 className="inline-block text-5xl font-bold text-gray-900">
             Missions
           </h2>
           <div
@@ -89,6 +91,9 @@ export default function IndexPage() {
           </div>
         </div>
       </div>
+
+      {/* Getting Started */}
+      <GettingStarted />
     </Layout>
   );
 }
