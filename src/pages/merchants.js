@@ -79,7 +79,7 @@ export default function Merchants() {
 
           <Input id="platform" label="Preferred Platform" inputType="select">
             <option value="none">I don't know</option>
-            <option value="big_commerce">Big Commerce</option>
+            <option value="big_commerce">BigCommerce</option>
             <option value="magento">Magento</option>
             <option value="shopify">Shopify</option>
             <option value="other">Other</option>
