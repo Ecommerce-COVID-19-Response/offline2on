@@ -6,16 +6,16 @@ export default function Agency(props) {
   return (
     <div className="directory-item">
       <h3 className="title has-text-primary is-size-4">
-        <i className="fa fa-cart-arrow-down" /> {Business_Name}
+        {Business_Name}
       </h3>
       <CommonFields {...props} />
       {Agency_Expertise && (
-        <div>
+        <div className="expertise">
           <strong>Expertise:</strong> {Agency_Expertise}
         </div>
       )}
       {Agency_Platforms && (
-        <div>
+        <div className="expertise">
           <strong>Platforms:</strong> {Agency_Platforms}
         </div>
       )}
