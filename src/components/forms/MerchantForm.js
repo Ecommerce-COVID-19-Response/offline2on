@@ -30,6 +30,10 @@ const MerchantForm = () =>
         <span className="form-hint">Tell us more about what you sell.</span>
       </div>
       <div className="field">
+        <label htmlFor="url">Existing Website</label>
+        <div className="control"><input className="input" type="text" name="url" id="url" /> </div>
+      </div>
+      <div className="field">
         <label htmlFor="can-ship">Do you currently ship?</label>
         <select className="input"  name="can-ship" id="can-ship">
           <option value="no">No</option>
