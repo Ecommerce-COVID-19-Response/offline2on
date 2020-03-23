@@ -8,7 +8,7 @@ export default function Agencies() {
     <Layout>
       <div className="bg-gray-100 py-28">
         <div className="relative text-center">
-          <h1 className="inline-block text-5xl font-semibold text-gray-900">
+          <h1 className="inline-block text-4xl font-semibold text-gray-900 md:text-5xl">
             For Agencies
           </h1>
           <div
@@ -17,7 +17,7 @@ export default function Agencies() {
           />
         </div>
 
-        <p className="max-w-xl mx-auto mt-16 text-center text-gray-500">
+        <p className="max-w-xl px-6 mx-auto mt-16 text-center text-gray-500">
           Many ecommerce agencies worldwide have available capacity to help
           merchants set up a website or optimize their online operations,
           fulfillment and shipping. If you are one of those agencies that would
@@ -30,9 +30,9 @@ export default function Agencies() {
           method="POST"
           data-netlify="true"
           action="/contact/thanks/"
-          className="max-w-4xl px-24 py-16 mx-auto mt-24 bg-white shadow sm:rounded-md sm:overflow-hidden"
+          className="max-w-4xl px-6 py-8 mx-auto mt-24 bg-white shadow md:py-16 md:px-24 sm:rounded-md sm:overflow-hidden"
         >
-          <div className="mb-16 text-center">
+          <div className="mb-8 text-center md:mb-16">
             <h2 className="text-2xl font-semibold text-gray-600">
               Business Information
             </h2>
