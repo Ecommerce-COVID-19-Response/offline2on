@@ -1,6 +1,6 @@
 ---
 templateKey: resource
-title: Use a Service to Provide Local Delivery or Curbside Pickup Today
+title: Access Local Delivery or Curbside Pickup Services
 subtitle: There are many food delivery services available, and some are waiving their fees at this time for independent restaurants.   
 ---
 
