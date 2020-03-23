@@ -32,6 +32,8 @@ export default function Agencies() {
           action="/contact/thanks/"
           className="max-w-4xl px-6 py-8 mx-auto mt-24 bg-white shadow md:py-16 md:px-24 sm:rounded-md sm:overflow-hidden"
         >
+          <input type="hidden" name="form-name" value="Agency Form" />
+
           <div className="mb-8 text-center md:mb-16">
             <h2 className="text-2xl font-semibold text-gray-600">
               Business Information
