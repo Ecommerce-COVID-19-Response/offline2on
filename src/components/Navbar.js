@@ -31,7 +31,9 @@ export default function Navbar() {
           <div className="flex justify-between flex-1 sm:justify-start">
             <div className="flex items-center flex-shrink-0">
               <Link to="/">
-                <img src={offline2onLogo} className="header-logo" alt="Offline2On" />
+                <div className="w-24">
+                  <img src={offline2onLogo} className="header-logo" alt="Offline2On" />
+                </div>
               </Link>
             </div>
             <div className="hidden sm:ml-6 sm:flex">
