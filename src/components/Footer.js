@@ -199,7 +199,7 @@ export default function Footer() {
           </div>
         </div>
         <div class="mt-8 border-t border-gray-700 pt-8 md:flex md:items-center md:justify-between">
-          <div class="flex md:order-2">
+          <div class="flex md:order-2 hidden">
             <a href="#" class="text-gray-400 hover:text-gray-300">
               <span class="sr-only">Facebook</span>
               <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
