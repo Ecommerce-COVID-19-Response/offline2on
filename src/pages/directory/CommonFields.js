@@ -5,6 +5,7 @@ export default function CommonFields(props) {
   const dateFormatted =
     Created_At && new Date(Created_At).toLocaleDateString("en-US");
   return (
+	<div>
     <>
       <div>
         {dateFormatted && (
@@ -34,5 +35,6 @@ export default function CommonFields(props) {
         </div>
       )}
     </>
+	</div>
   );
 }

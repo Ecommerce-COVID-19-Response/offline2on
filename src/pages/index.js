@@ -1,5 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
+import GettingStarted from '../components/HomePage/GettingStarted';
+
 import socialDistancing from '../img/social-distancing.svg';
 import global from '../img/global.svg';
 import eCommerce from '../img/ecommerce.svg';
@@ -11,7 +13,7 @@ export default function IndexPage() {
       <div className="bg-gray-100">
         <div className="max-w-screen-lg px-4 py-10 mx-auto sm:py-12 sm:px-6 md:py-16 lg:py-20 xl:py-28">
           <div className="text-center">
-            <h2 className="font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
+            <h2 className="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
               eCommerce Community Support & Resources for Merchants
             </h2>
             <p className="max-w-md mx-auto mt-3 text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
@@ -24,10 +26,10 @@ export default function IndexPage() {
             <div className="max-w-md mx-auto mt-5 sm:flex sm:justify-center md:mt-8">
               <div className="rounded-md shadow">
                 <a
-                  href="#"
+                  href="#getting-started"
                   className="flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-orange-500 border border-transparent rounded-md hover:text-white hover:bg-orange-600 focus:outline-none focus:shadow-outline-orange md:py-4 md:text-lg md:px-10"
                 >
-                  Learn more
+                  Get Started
                 </a>
               </div>
             </div>
@@ -38,7 +40,7 @@ export default function IndexPage() {
       {/* Mission */}
       <div className="max-w-screen-lg px-4 mx-auto my-32 text-lg">
         <div className="relative text-center">
-          <h2 className="inline-block text-5xl font-semibold text-gray-900">
+          <h2 className="inline-block text-5xl font-bold text-gray-900">
             Missions
           </h2>
           <div
@@ -48,7 +50,7 @@ export default function IndexPage() {
         </div>
 
         <div className="flex flex-col items-center mt-24 md:flex-row-reverse">
-          <img src={socialDistancing} className="md:ml-24 w-96" />
+          <img src={socialDistancing} className="md:ml-24 w-96" alt="social distancing icon" />
           <div className="px-0 mt-12 md:mt-0 sm:px-12 md:px-0">
             <p className="mb-4">
               The unfolding global coronavirus (COVID-19) pandemic is reshaping
@@ -63,7 +65,7 @@ export default function IndexPage() {
         </div>
 
         <div className="flex flex-col items-center mt-24 md:flex-row">
-          <img src={global} className="md:mr-24 w-96" />
+          <img src={global} className="md:mr-24 w-96" alt="global trade icon" />
           <div className="px-0 mt-12 text-right md:mt-0 sm:px-12 md:px-0">
             <p className="mb-4">
               Unprecedented times call for unprecedented measures.
@@ -80,7 +82,7 @@ export default function IndexPage() {
         </div>
 
         <div className="flex flex-col items-center mt-24 md:flex-row-reverse">
-          <img src={eCommerce} className="md:ml-24 w-96" />
+          <img src={eCommerce} className="md:ml-24 w-96" alt="eCommerce icon" />
           <div className="px-0 mt-12 md:mt-0 sm:px-12 md:px-0">
             Whether you’re looking for a simple guide for getting you started
             selling online within the week or resources to optimize your site
@@ -89,6 +91,7 @@ export default function IndexPage() {
           </div>
         </div>
       </div>
+      <GettingStarted />
     </Layout>
   );
 }

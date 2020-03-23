@@ -1,11 +1,11 @@
 import React from 'react';
-import { Link } from 'gatsby';
+// import { Link } from 'gatsby';
 
-import logo from '../img/logo2.svg';
-import facebook from '../img/social/facebook.svg';
-import instagram from '../img/social/instagram.svg';
-import twitter from '../img/social/twitter.svg';
-import vimeo from '../img/social/vimeo.svg';
+// import logo from '../img/logo2.svg';
+// import facebook from '../img/social/facebook.svg';
+// import instagram from '../img/social/instagram.svg';
+// import twitter from '../img/social/twitter.svg';
+// import vimeo from '../img/social/vimeo.svg';
 
 export default function Footer() {
   return (
@@ -21,7 +21,7 @@ export default function Footer() {
                 <ul class="mt-4">
                   <li>
                     <a
-                      href="#"
+                      href="/"
                       class="text-base leading-6 text-gray-300 hover:text-white"
                     >
                       Marketing
@@ -29,7 +29,7 @@ export default function Footer() {
                   </li>
                   <li class="mt-4">
                     <a
-                      href="#"
+                      href="/"
                       class="text-base leading-6 text-gray-300 hover:text-white"
                     >
                       Analytics
@@ -37,7 +37,7 @@ export default function Footer() {
                   </li>
                   <li class="mt-4">
                     <a
-                      href="#"
+                      href="/"
                       class="text-base leading-6 text-gray-300 hover:text-white"
                     >
                       Commerce
@@ -45,7 +45,7 @@ export default function Footer() {
                   </li>
                   <li class="mt-4">
                     <a
-                      href="#"
+                      href="/"
                       class="text-base leading-6 text-gray-300 hover:text-white"
                     >
                       Insights
@@ -60,7 +60,7 @@ export default function Footer() {
                 <ul class="mt-4">
                   <li>
                     <a
-                      href="#"
+                      href="/"
                       class="text-base leading-6 text-gray-300 hover:text-white"
                     >
                       Pricing
@@ -68,7 +68,7 @@ export default function Footer() {
                   </li>
                   <li class="mt-4">
                     <a
-                      href="#"
+                      href="/"
                       class="text-base leading-6 text-gray-300 hover:text-white"
                     >
                       Documentation
@@ -76,7 +76,7 @@ export default function Footer() {
                   </li>
                   <li class="mt-4">
                     <a
-                      href="#"
+                      href="/"
                       class="text-base leading-6 text-gray-300 hover:text-white"
                     >
                       Guides
@@ -84,7 +84,7 @@ export default function Footer() {
                   </li>
                   <li class="mt-4">
                     <a
-                      href="#"
+                      href="/"
                       class="text-base leading-6 text-gray-300 hover:text-white"
                     >
                       API Status
@@ -101,7 +101,7 @@ export default function Footer() {
                 <ul class="mt-4">
                   <li>
                     <a
-                      href="#"
+                      href="/"
                       class="text-base leading-6 text-gray-300 hover:text-white"
                     >
                       About
@@ -109,7 +109,7 @@ export default function Footer() {
                   </li>
                   <li class="mt-4">
                     <a
-                      href="#"
+                      href="/"
                       class="text-base leading-6 text-gray-300 hover:text-white"
                     >
                       Blog
@@ -117,7 +117,7 @@ export default function Footer() {
                   </li>
                   <li class="mt-4">
                     <a
-                      href="#"
+                      href="/"
                       class="text-base leading-6 text-gray-300 hover:text-white"
                     >
                       Jobs
@@ -125,7 +125,7 @@ export default function Footer() {
                   </li>
                   <li class="mt-4">
                     <a
-                      href="#"
+                      href="/"
                       class="text-base leading-6 text-gray-300 hover:text-white"
                     >
                       Press
@@ -133,7 +133,7 @@ export default function Footer() {
                   </li>
                   <li class="mt-4">
                     <a
-                      href="#"
+                      href="/"
                       class="text-base leading-6 text-gray-300 hover:text-white"
                     >
                       Partners
@@ -148,7 +148,7 @@ export default function Footer() {
                 <ul class="mt-4">
                   <li>
                     <a
-                      href="#"
+                      href="/"
                       class="text-base leading-6 text-gray-300 hover:text-white"
                     >
                       Claim
@@ -156,7 +156,7 @@ export default function Footer() {
                   </li>
                   <li class="mt-4">
                     <a
-                      href="#"
+                      href="/"
                       class="text-base leading-6 text-gray-300 hover:text-white"
                     >
                       Privacy
@@ -164,7 +164,7 @@ export default function Footer() {
                   </li>
                   <li class="mt-4">
                     <a
-                      href="#"
+                      href="/"
                       class="text-base leading-6 text-gray-300 hover:text-white"
                     >
                       Terms
@@ -200,7 +200,7 @@ export default function Footer() {
         </div>
         <div class="mt-8 border-t border-gray-700 pt-8 md:flex md:items-center md:justify-between">
           <div class="flex md:order-2 hidden">
-            <a href="#" class="text-gray-400 hover:text-gray-300">
+            <a href="/" class="text-gray-400 hover:text-gray-300">
               <span class="sr-only">Facebook</span>
               <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                 <path
@@ -210,7 +210,7 @@ export default function Footer() {
                 />
               </svg>
             </a>
-            <a href="#" class="ml-6 text-gray-400 hover:text-gray-300">
+            <a href="/" class="ml-6 text-gray-400 hover:text-gray-300">
               <span class="sr-only">Instagram</span>
               <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                 <path
@@ -220,13 +220,13 @@ export default function Footer() {
                 />
               </svg>
             </a>
-            <a href="#" class="ml-6 text-gray-400 hover:text-gray-300">
+            <a href="/" class="ml-6 text-gray-400 hover:text-gray-300">
               <span class="sr-only">Twitter</span>
               <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
               </svg>
             </a>
-            <a href="#" class="ml-6 text-gray-400 hover:text-gray-300">
+            <a href="/" class="ml-6 text-gray-400 hover:text-gray-300">
               <span class="sr-only">GitHub</span>
               <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                 <path
@@ -236,7 +236,7 @@ export default function Footer() {
                 />
               </svg>
             </a>
-            <a href="#" class="ml-6 text-gray-400 hover:text-gray-300">
+            <a href="/" class="ml-6 text-gray-400 hover:text-gray-300">
               <span class="sr-only">Dribbble</span>
               <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                 <path

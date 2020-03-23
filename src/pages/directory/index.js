@@ -18,17 +18,17 @@ export default function DirectoryPage({ data }) {
           crossOrigin="anonymous"
         ></script>
       </Helmet>
-      <h2
-        className="has-text-weight-bold is-size-1"
-        style={{
-          boxShadow: "0.5rem 0 0 #f40, -0.5rem 0 0 #f40",
-          backgroundColor: "#f40",
-          color: "white",
-          padding: "1rem"
-        }}
-      >
-        Directory
-      </h2>
+    <div className="py-16 bg-gray-100 sm:py-20 md:py-28">
+      <div className="relative text-center">
+        <h1 className="inline-block text-4xl font-semibold text-gray-900 md:text-5xl">
+          Directory
+        </h1>
+        <div
+          className="absolute bottom-0 w-12 h-1 bg-orange-500 left-1/2"
+          style={{ transform: 'translate3D(-50%, 10px, 0)' }}
+        />
+      </div>
+	</div>
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
