@@ -18,11 +18,7 @@ export default function Agencies() {
         </div>
 
         <p className="max-w-xl px-6 mx-auto mt-16 text-center text-gray-500">
-          Many ecommerce agencies worldwide have available capacity to help
-          merchants set up a website or optimize their online operations,
-          fulfillment and shipping. If you are one of those agencies that would
-          like to help merchants through this difficult time, complete this form
-          to add your name to the list.
+          Many e-commerce agencies worldwide have available capacity to help merchants set up a website or optimize their online operations, fulfillment and shipping. If you are one of those agencies that would like to help out in this difficult time, complete this form to add your name to the list. Once you submit this info you will be able to connect with merchants in need of your services. We’re in this together!
         </p>
 
         <form

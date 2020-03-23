@@ -18,10 +18,7 @@ export default function Merchants() {
         </div>
 
         <p className="max-w-xl px-6 mx-auto mt-16 text-center text-gray-500">
-          Worldwide many ecommerce agencies have available capacity to help
-          offline merchants get online fast or optimize existing sites.
-          Depending on your budget, we catered a list of agencies based on your
-          platform option.
+          Many e-commerce agencies worldwide have available capacity to help merchants get a website set up fast, or optimize their current online operations, fulfillment and shipping. Complete this form and we’ll forward your request to the agency best suited to help with your needs. There is hope and help is on the way!
         </p>
 
         <form
