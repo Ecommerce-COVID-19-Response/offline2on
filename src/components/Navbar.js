@@ -112,28 +112,28 @@ export default function Navbar() {
       <div className={classNames('', isOpen ? 'block' : 'hidden')}>
         <div className="pt-2 pb-3">
           <a
-            href="#"
+            href="/about"
             className="block py-2 pl-3 pr-4 text-base font-medium text-orange-700 transition duration-150 ease-in-out border-l-4 border-orange-500 bg-orange-50 focus:outline-none focus:text-orange-800 focus:bg-orange-100 focus:border-orange-700"
           >
-            Dashboard
+            About
           </a>
           <a
-            href="#"
+            href="/merchants"
             className="block py-2 pl-3 pr-4 mt-1 text-base font-medium text-gray-600 transition duration-150 ease-in-out border-l-4 border-transparent hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:bg-gray-50 focus:border-gray-300"
           >
-            Team
+            For Merchants
           </a>
           <a
-            href="#"
+            href="/agencies"
             className="block py-2 pl-3 pr-4 mt-1 text-base font-medium text-gray-600 transition duration-150 ease-in-out border-l-4 border-transparent hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:bg-gray-50 focus:border-gray-300"
           >
-            Projects
+            For Agencies
           </a>
           <a
-            href="#"
+            href="/directory"
             className="block py-2 pl-3 pr-4 mt-1 text-base font-medium text-gray-600 transition duration-150 ease-in-out border-l-4 border-transparent hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:bg-gray-50 focus:border-gray-300"
           >
-            Calendar
+            Directory
           </a>
         </div>
       </div>
