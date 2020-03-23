@@ -68,7 +68,7 @@ export default function GettingStarted() {
               <span className="inline-block px-5 py-1 mr-8 text-3xl font-bold text-white rounded" style={{ backgroundColor: '#575a89' }}>1</span>
               <div className="leading-none">
                 <p className="mb-4 text-2xl font-bold text-gray-900 md:text-3xl md:text-4xl">Local Delivery or Pickup Services</p>
-                <p className="mb-4 text-base text-gray-600">Find services available for you to offer</p>
+                <p className="mb-4 text-gray-600">Find services available for you to offer</p>
                 <a className="text-orange-500 underline" href="#">Learn More</a>
               </div>
             </div>
@@ -76,7 +76,7 @@ export default function GettingStarted() {
               <span className="inline-block px-5 py-1 mr-8 text-3xl font-bold text-white rounded" style={{ backgroundColor: '#575a89' }}>2</span>
               <div className="leading-none">
                 <p className="mb-4 text-2xl font-bold text-gray-900 md:text-3xl md:text-4xl">Get Started With Your Own Website</p>
-                <p className="mb-4 text-base text-gray-600">Find eCommerce platforms for your business needs</p>
+                <p className="mb-4 text-gray-600">Find eCommerce platforms for your business needs</p>
                 <a className="text-orange-500 underline" href="#">Learn More</a>
               </div>
             </div>
@@ -84,7 +84,7 @@ export default function GettingStarted() {
               <span className="inline-block px-5 py-1 mr-8 text-3xl font-bold text-white rounded" style={{ backgroundColor: '#575a89' }}>3</span>
               <div className="leading-none">
                 <p className="mb-4 text-2xl font-bold text-gray-900 md:text-3xl md:text-4xl">Get in Contact With Agencies Who Can Help</p>
-                <p className="mb-4 text-base text-gray-600">Find help from eCommerce professionals worldwide</p>
+                <p className="mb-4 text-gray-600">Find help from eCommerce professionals worldwide</p>
                 <a className="text-orange-500 underline" href="#">Learn More</a>
               </div>
             </div>
