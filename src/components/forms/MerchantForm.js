@@ -55,7 +55,7 @@ const MerchantForm = () =>
         </select>
       </div>
       <div className="field">
-        <label htmlFor="platform">Preferred PLatform</label>
+        <label htmlFor="platform">Preferred Platform</label>
         <select className="input"  name="platform" id="platform">
           <option value="none">I don't know</option>
           <option value="big_commerce">Big Commerce</option>
@@ -65,7 +65,7 @@ const MerchantForm = () =>
         </select>
       </div>
       <div className="field">
-        <label htmlFor="help_needed">What Do you need help with?</label>
+        <label htmlFor="help_needed">What do you need help with?</label>
         <div className="control">
           <textarea className="textarea" name="help_needed" id="help_needed" rows="3" />
         </div>
