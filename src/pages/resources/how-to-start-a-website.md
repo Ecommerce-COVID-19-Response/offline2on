@@ -27,11 +27,12 @@ You may also consider selling gift certificates; these can be a great way to inc
 You can also let your customers know that you have additional products not yet listed; provide a phone number and an email address for them to reach out if they cannot find what they need.
 
 ### Additional Resources
-[How to Use your Smartphone to Capture High Quality Product Images](https://www.pixelz.com/blog/use-smartphone-to-capture-high-quality-product-images/)
-[From Retail to e-tail: Taking your brick & mortar store online](https://www.bigcommerce.com/blog/brick-and-mortar/)
-[How to future proof your brick & mortar store](https://www.shopify.com/retail/how-to-future-proof-your-brick-and-mortar-store)
-[Understanding the impact of COVID-19 on shopper behavior](https://www.bigcommerce.com/blog/covid-19-ecommerce/)
-[Short term revenue strategies for brick & mortar retailers navigating COVID-19](https://www.shopify.com/blog/retail-response-covid-19)
+
+- [How to Use your Smartphone to Capture High Quality Product Images](https://www.pixelz.com/blog/use-smartphone-to-capture-high-quality-product-images/)
+- [From Retail to e-tail: Taking your brick & mortar store online](https://www.bigcommerce.com/blog/brick-and-mortar/)
+- [How to future proof your brick & mortar store](https://www.shopify.com/retail/how-to-future-proof-your-brick-and-mortar-store)
+- [Understanding the impact of COVID-19 on shopper behavior](https://www.bigcommerce.com/blog/covid-19-ecommerce/)
+- [Short term revenue strategies for brick & mortar retailers navigating COVID-19](https://www.shopify.com/blog/retail-response-covid-19)
 
 ## Determine Your Shipping Strategy 
 
