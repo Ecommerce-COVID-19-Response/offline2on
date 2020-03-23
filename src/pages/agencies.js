@@ -44,11 +44,11 @@ export default function Agencies() {
             </p>
           </div>
 
-          <Input id="name" label="Name" />
+          <Input id="name" label="Name" required />
 
-          <Input id="email" label="Email" type="email" />
+          <Input id="email" label="Email" type="email" required />
 
-          <Input id="phone" label="Phone" type="tel" />
+          <Input id="phone" label="Phone" type="tel" required />
 
           <Input id="business-name" label="Business Name" />
 
