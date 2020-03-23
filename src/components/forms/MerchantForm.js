@@ -25,7 +25,7 @@ const MerchantForm = () =>
         <div className="control"><input className="input" type="text" name="business-name" id="business-name" /> </div>
       </div>
       <div className="field">
-        <label htmlFor="vertical">Business Vertical</label>
+        <label htmlFor="vertical">Business Description</label>
         <div className="control"><input className="input" type="text" name="vertical" id="vertical" /> </div>
         <span className="form-hint">Tell us more about what you sell.</span>
       </div>
@@ -41,22 +41,39 @@ const MerchantForm = () =>
         <div className="control"><input className="input" type="text" name="location" id="location" /> </div>
       </div>
       <div className="field">
-        <label htmlFor="budget">Do you have a budget?</label>
+        <label htmlFor="budget">What's  your Budget?</label>
         <select className="input"  name="budget" id="budget">
-          <option value="under-1000">Under a $1000</option>
-          <option value="1000-3000">$1000 to $3000</option>
-          <option value="3000-5000">$3000 to $5000</option>
-          <option value="over-5000">$5000 or more</option>
+          <option value="$">$</option>
+          <option value="$$">$$</option>
+          <option value="$$$">$$$</option>
+          <option value="$$$$">$$$$</option>
           <option value="probono">I need help or can't pay</option>
         </select>
       </div>
       <div className="field">
-        <label htmlFor="additional">Anything else you want to tell us</label>
+        <label htmlFor="platform">Preferred PLatform</label>
+        <select className="input"  name="platform" id="platform">
+          <option value="none">I don't know</option>
+          <option value="big_commerce">Big Commerce</option>
+          <option value="magento">Magento</option>
+          <option value="shopify">Shopify</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div className="field">
+        <label htmlFor="help_needed">What Do you need help with?</label>
+        <div className="control">
+          <textarea className="textarea" name="help_needed" id="help_needed" rows="3" />
+        </div>
+      </div>
+      <div className="field">
+        <label htmlFor="additional">Other Comments</label>
         <div className="control">
           <textarea className="textarea" name="additional" id="additional" rows="3" />
         </div>
       </div>
     </div>
+    
     <div className="actions">
       <div className="field">
         <button class="button is-link" type="submit">Send</button>
