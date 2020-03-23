@@ -18,7 +18,7 @@ export default function Merchants() {
         </div>
 
         <p className="max-w-xl px-6 mx-auto mt-16 text-center text-gray-500">
-          Many e-commerce agencies worldwide have available capacity to help merchants get a website set up fast, or optimize their current online operations, fulfillment and shipping. Complete this form and we’ll forward your request to the agency best suited to help with your needs. There is hope and help is on the way!
+          Many e-commerce agencies worldwide have available capacity to help merchants like you get a website set up fast, or optimize their current online operations, fulfillment and shipping. There is hope and help is on the way!
         </p>
 
         <form
@@ -35,9 +35,7 @@ export default function Merchants() {
               Business Information
             </h2>
             <p className="mx-8 mt-4 text-gray-500">
-              In order to get you online as fast as possible, please send this
-              form. We'll forward your request to the best matching contact for
-              you.
+              In order to get you online as fast as possible, complete this form and we’ll forward your request to the agency best suited to help with your needs.
             </p>
           </div>
 
