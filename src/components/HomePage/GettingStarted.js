@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
+import { Link } from 'gatsby'
 
 import existingSite from '../../img/getting-started/ico-exsitingsite.svg';
 import restaurant from '../../img/getting-started/ico-restaurant.svg';
@@ -92,7 +93,7 @@ export default function GettingStarted() {
               <div className="leading-none">
                 <p className="mb-4 text-2xl font-bold text-gray-900 md:text-3xl md:text-4xl">Local Delivery or Pickup Services</p>
                 <p className="mb-4 text-gray-600">Find services available for you to offer</p>
-                <a className="text-orange-500 underline" href="#">Learn More</a>
+                <Link className="text-orange-500 underline" to="/resources/local-delivery-services/">Learn More</Link>
               </div>
             </div>
             <div className="flex items-start py-8 border-b-2 border-gray-200">
@@ -100,7 +101,7 @@ export default function GettingStarted() {
               <div className="leading-none">
                 <p className="mb-4 text-2xl font-bold text-gray-900 md:text-3xl md:text-4xl">Get Started With Your Own Website</p>
                 <p className="mb-4 text-gray-600">Find eCommerce platforms for your business needs</p>
-                <a className="text-orange-500 underline" href="#">Learn More</a>
+                <Link className="text-orange-500 underline" to="/resources/how-to-start-a-website/">Learn More</Link>
               </div>
             </div>
             <div className="flex items-start py-8">
@@ -108,7 +109,7 @@ export default function GettingStarted() {
               <div className="leading-none">
                 <p className="mb-4 text-2xl font-bold text-gray-900 md:text-3xl md:text-4xl">Get in Contact With Agencies Who Can Help</p>
                 <p className="mb-4 text-gray-600">Find help from eCommerce professionals worldwide</p>
-                <a className="text-orange-500 underline" href="#">Learn More</a>
+                <Link className="text-orange-500 underline" to="/resources/product-marketplaces/">Learn More</Link>
               </div>
             </div>
           </div>
