@@ -8,9 +8,10 @@ subtitle: So you are interested in starting your own website? Great! We have put
 2. Determine Your Shipping Strategy
 3. Plan for Sales Tax 
 4. Choose a Platform
+5. Get Help From an Agency
 
 
-## Figure Out What Products you Want to Sell Online 
+# Figure Out What Products you Want to Sell Online 
 
 You will need to determine which of your products you will list online (your “product catalog”). You do not need to include every product you sell, especially when starting out. We recommend starting with your bestsellers, products that are in demand. Once you are up and running, you can add additional products to your catalog.
 
@@ -33,7 +34,7 @@ You can also let your customers know that you have additional products not yet l
 [Understanding the impact of COVID-19 on shopper behavior](https://www.bigcommerce.com/blog/covid-19-ecommerce/)
 [Short term revenue strategies for brick & mortar retailers navigating COVID-19](https://www.shopify.com/blog/retail-response-covid-19)
 
-## Determine Your Shipping Strategy 
+# Determine Your Shipping Strategy 
 
 One of the reasons you are looking to get online in a hurry is to reach your customers who were once able to do business by coming in your shop. Now, you will need to ship to them. There are several aspects to sorting out a shipping strategy.
 
@@ -82,11 +83,11 @@ Here are some helpful articles on how to create a successful shipping strategy:
 For more information and help on getting your shipping strategy defined, just fill out this form and we will connect you with someone who can help!
 
 
-## Plan for Sales Tax 
+# Plan for Sales Tax 
 
 You may be required to collect sales tax on online sales, depending on your locality.
 
-## United States
+### United States
 In the United States, forty-five states and Washington DC all have sales tax. States, counties/parishes, cities, and other “special taxing districts” can all charge sales tax. This is why the sales tax amount you charge or pay is sometimes an odd number like 7.125%. 
  
 When you make a sale at your brick and mortar business, you charge the same state + county + city + special sales tax rate to every person who walks in the door. However, when you sell online, this rate often changes. 
@@ -97,7 +98,7 @@ Sound confusing? Thankfully, most online sales platforms like Magento, BigCommer
 
 Right now, the most important thing you can do is ensure you are collecting sales tax from your customers in the state where your brick and mortar store is located. This means you won’t later end up having to pay sales tax out of pocket. But there is more to sales tax when selling online. If you have questions, check out the E-commerce Seller’s Guide to Online Sales Tax.
 
-## Europe
+### Europe
 In Europe, this tax is often called Value Added Tax (VAT). In other countries it may be called Gross Receipts Tax (GRT) or have another name. The one thing that these taxes share in common is that they are generally collected from the buyer at the point of sale and then periodically passed on to the governing body.
 
 ### How to Set up Sales Tax Collection
@@ -113,7 +114,7 @@ For more questions around VAT, visit [SimplyVAT.com](https://simplyvat.com/).
 If you’re feeling confused and still need some help with this, just fill out this form and we will connect you with someone who can help!
 
 
-## Choose a Platform 
+# Choose a Platform 
 
 To be clear, there isn’t one platform that is perfect for every business so as you review the platforms listed below, keep your business in mind. 
 
@@ -153,3 +154,6 @@ Selecting the right platform can feel a little overwhelming so if you feel stuck
 |Wix                   |Easy        |[Hosting included, Theme builder, Coupons/discounts, 24/7 Support, POS integrations<br><br>See all features](https://www.wix.com/ecommerce/website)              |E-commerce starts at $23/month                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |Webflow               |Easy        |[Hosting included, Theme builder, 24/7 Support, POS integrations<br><br>See all features](https://webflow.com/ecommerce)                                         |Websites starting at $29/month. E-commerce starts at $80/month                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |WooCommerce           |Intermediate|[WordPress required<br><br>Theme builder, Coupons/discounts, POS integrations<br><br>See all features](https://woocommerce.com/features/)                        |Core is free, addons vary. Hosting not included                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+
+## Getting More Help
+If you are feeling overwhelmed and could use some guidance through this process, [reach out to us](../merchants) and we will help connect you to a resource or agency that can help!
