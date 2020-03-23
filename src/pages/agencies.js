@@ -18,11 +18,7 @@ export default function Agencies() {
         </div>
 
         <p className="max-w-xl px-6 mx-auto mt-16 text-center text-gray-500">
-          Many ecommerce agencies worldwide have available capacity to help
-          merchants set up a website or optimize their online operations,
-          fulfillment and shipping. If you are one of those agencies that would
-          like to help merchants through this difficult time, complete this form
-          to add your name to the list.
+          If you are an ecommerce agency anywhere in the world who has available capacity to help merchants set up a website or optimize their online operations, fulfillment and shipping and would like to help out in this difficult time, complete this form to add your name to the list.
         </p>
 
         <form
@@ -39,16 +35,15 @@ export default function Agencies() {
               Business Information
             </h2>
             <p className="mx-8 mt-4 text-gray-500">
-              Once you submit this info you will be able to connect with
-              merchants in need of your services. We’re in this together!
+              Once you submit this info you will be able to connect with merchants in need of your services. We’re in this together!
             </p>
           </div>
 
-          <Input id="name" label="Name" />
+          <Input id="name" label="Name" required />
 
-          <Input id="email" label="Email" type="email" />
+          <Input id="email" label="Email" type="email" required />
 
-          <Input id="phone" label="Phone" type="tel" />
+          <Input id="phone" label="Phone" type="tel" required />
 
           <Input id="business-name" label="Business Name" />
 

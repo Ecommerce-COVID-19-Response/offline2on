@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { useLocation } from '@reach/router';
 import classNames from 'classnames';
+import offline2onLogo from '../img/Offline2On-Logo-FC.svg';
+
 
 function NavLink({ className, to, isActive, children }) {
   return (
@@ -29,7 +31,7 @@ export default function Navbar() {
           <div className="flex justify-between flex-1 sm:justify-start">
             <div className="flex items-center flex-shrink-0">
               <Link to="/">
-                <h1 className="font-bold text-orange-500">Offline2on</h1>
+	  			<img src={offline2onLogo} className="header-logo" alt="Offline2On" />
               </Link>
             </div>
             <div className="hidden sm:ml-6 sm:flex">
