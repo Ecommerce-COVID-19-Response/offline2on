@@ -1,11 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
+import classNames from 'classnames';
+
 import existingSite from '../../img/getting-started/ico-exsitingsite.svg';
 import restaurant from '../../img/getting-started/ico-restaurant.svg';
 import retail from '../../img/getting-started/ico-retail.svg';
 import wholesale from '../../img/getting-started/ico-wholesale.svg';
 import newSite from '../../img/getting-started/ico-newsite.svg';
 
+function AnswerButton({ children, onClick, isActive }) {
+  return (
+    <button
+      onClick={onClick}
+      className={classNames("flex items-center flex-1 px-4 py-4 mb-4 border rounded shadow md:mb-0 md:mr-4",
+        isActive ? "bg-gray-200" : "transition-all duration-150 ease-in-out transform bg-white hover:scale-105 hover:shadow-lg hover:bg-gray-50")}
+      type="button"
+    >
+      {children}
+    </button>
+  )
+}
+
 export default function GettingStarted() {
+  const [businessType, setBusinessType] = useState(null);
+  const [hasWebsite, setHasWebsite] = useState(null);
+
   return (
     <>
       <section id="getting-started" className="bg-gray-100">
@@ -24,41 +42,46 @@ export default function GettingStarted() {
               Tell us a little bit about your business so we can redirect to the most relevant and helpful resources.
           </p>
           </div>
-          <p className="mt-16 mb-10 text-4xl font-bold leading-10 tracking-tight text-center text-gray-900 sm:leading-none">
-            What type of business are you?
-          </p>
-          <div className="flex flex-col justify-between md:flex-row">
-            <button className="flex items-center flex-1 px-4 py-4 mb-4 transition-all duration-150 ease-in-out transform bg-white border rounded shadow md:mb-0 md:mr-4 hover:scale-105 hover:shadow-lg hover:bg-gray-50" type="button">
-              <img className="w-12 mr-4" src={restaurant} alt="restaurant icon" />
-              <p className="text-2xl font-bold">Restaurant</p>
-            </button>
-            <button className="flex items-center flex-1 px-4 py-4 mb-4 transition-all duration-150 ease-in-out transform bg-white border rounded shadow md:mb-0 md:mr-4 hover:scale-105 hover:shadow-lg hover:bg-gray-50" type="button">
-              <img className="w-12 mr-4" src={retail} alt="retail icon" />
-              <p className="text-2xl font-bold">Retailer</p>
-            </button>
-            <button className="flex items-center flex-1 px-4 py-4 transition-all duration-150 ease-in-out transform bg-white border rounded shadow md:mb-0 hover:scale-105 hover:shadow-lg hover:bg-gray-50" type="button">
-              <img className="w-12 mr-4" src={wholesale} alt="wholesale icon" />
-              <p className="text-2xl font-bold">Wholesaler</p>
-            </button>
+          <div className="mt-16">
+            <p className="mb-10 text-4xl font-bold leading-10 tracking-tight text-center text-gray-900 sm:leading-none">
+              What type of business are you?
+            </p>
+            <div className="flex flex-col justify-between md:flex-row">
+              <AnswerButton onClick={() => setBusinessType('restaurant')} isActive={businessType === 'restaurant'}>
+                <img className="w-12 mr-4" src={restaurant} alt="restaurant icon" />
+                <p className="text-2xl font-bold">Restaurant</p>
+              </AnswerButton>
+              <AnswerButton onClick={() => setBusinessType('retail')} isActive={businessType === 'retail'}>
+                <img className="w-12 mr-4" src={retail} alt="retail icon" />
+                <p className="text-2xl font-bold">Retailer</p>
+              </AnswerButton>
+              <AnswerButton onClick={() => setBusinessType('wholesale')} isActive={businessType === 'wholesale'}>
+                <img className="w-12 mr-4" src={wholesale} alt="wholesale icon" />
+                <p className="text-2xl font-bold">Wholesaler</p>
+              </AnswerButton>
+            </div>
           </div>
-          <p className="mt-24 mb-10 text-4xl font-bold leading-10 tracking-tight text-center text-gray-900 sm:leading-none">
-            What kind of help do you need?
-          </p>
-          <div className="flex flex-col justify-between md:flex-row">
-            <button className="flex items-center flex-1 px-4 py-4 mb-4 transition-all duration-150 ease-in-out transform bg-white border rounded shadow md:mb-0 md:mr-4 hover:scale-105 hover:shadow-lg hover:bg-gray-50" type="button">
-              <img className="w-12 mr-4" src={newSite} alt="new site icon" />
-              <p className="text-2xl font-bold">I Need a Website</p>
-            </button>
-            <button className="flex items-center flex-1 px-4 py-4 transition-all duration-150 ease-in-out transform bg-white border rounded shadow md:mb-0 hover:scale-105 hover:shadow-lg hover:bg-gray-50" type="button">
-              <img className="w-12 mr-4" src={existingSite} alt="existing site icon" />
-              <p className="text-2xl font-bold">I Have a Website</p>
-            </button>
-          </div>
+          {businessType && <div className="mt-24">
+            <p className="mb-10 text-4xl font-bold leading-10 tracking-tight text-center text-gray-900 sm:leading-none">
+              What kind of help do you need?
+            </p>
+            <div className="flex flex-col justify-between md:flex-row">
+              <AnswerButton onClick={() => setHasWebsite(false)} isActive={hasWebsite != null && !hasWebsite}>
+                <img className="w-12 mr-4" src={newSite} alt="new site icon" />
+                <p className="text-2xl font-bold">I Need a Website</p>
+              </AnswerButton>
+              <AnswerButton onClick={() => setHasWebsite(true)} isActive={hasWebsite != null && hasWebsite}>
+                <img className="w-12 mr-4" src={existingSite} alt="existing site icon" />
+                <p className="text-2xl font-bold">I Have a Website</p>
+              </AnswerButton>
+            </div>
+          </div>}
         </div>
       </section>
 
       {/* Result */}
-      <section className="bg-white">
+
+      {businessType && hasWebsite != null && <section className="bg-white">
         <div className="max-w-screen-md px-4 py-20 mx-auto text-lg">
           <h2 className="max-w-2xl text-4xl font-bold leading-10 tracking-tight text-center text-gray-900 md:text-5xl sm:leading-none">
             Great! Here are some helpful options to get you started.
@@ -90,7 +113,7 @@ export default function GettingStarted() {
             </div>
           </div>
         </div>
-      </section>
+      </section>}
     </>
   )
 }
