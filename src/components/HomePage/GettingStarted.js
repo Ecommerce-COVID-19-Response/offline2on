@@ -8,11 +8,11 @@ import retail from '../../img/getting-started/ico-retail.svg';
 import wholesale from '../../img/getting-started/ico-wholesale.svg';
 import newSite from '../../img/getting-started/ico-newsite.svg';
 
-function AnswerButton({ children, onClick, isActive }) {
+function AnswerButton({ children, onClick, isActive, className }) {
   return (
     <button
       onClick={onClick}
-      className={classNames("flex items-center flex-1 px-4 py-4 mb-4 border rounded shadow md:mb-0 md:mr-4",
+      className={classNames("flex items-center flex-1 px-4 py-4 border rounded shadow", className,
         isActive ? "bg-gray-200" : "transition-all duration-150 ease-in-out transform bg-white hover:scale-105 hover:shadow-lg hover:bg-gray-50")}
       type="button"
     >
@@ -48,15 +48,15 @@ export default function GettingStarted() {
               What type of business are you?
             </p>
             <div className="flex flex-col justify-between md:flex-row">
-              <AnswerButton onClick={() => setBusinessType('restaurant')} isActive={businessType === 'restaurant'}>
+              <AnswerButton className="mb-4 md:mb-0 md:mr-4" onClick={() => setBusinessType('restaurant')} isActive={businessType === 'restaurant'}>
                 <img className="w-12 mr-4" src={restaurant} alt="restaurant icon" />
                 <p className="text-2xl font-bold">Restaurant</p>
               </AnswerButton>
-              <AnswerButton onClick={() => setBusinessType('retail')} isActive={businessType === 'retail'}>
+              <AnswerButton className="mb-4 md:mb-0 md:mr-4" onClick={() => setBusinessType('retail')} isActive={businessType === 'retail'}>
                 <img className="w-12 mr-4" src={retail} alt="retail icon" />
                 <p className="text-2xl font-bold">Retailer</p>
               </AnswerButton>
-              <AnswerButton onClick={() => setBusinessType('wholesale')} isActive={businessType === 'wholesale'}>
+              <AnswerButton className="mb-0 mr-0" onClick={() => setBusinessType('wholesale')} isActive={businessType === 'wholesale'}>
                 <img className="w-12 mr-4" src={wholesale} alt="wholesale icon" />
                 <p className="text-2xl font-bold">Wholesaler</p>
               </AnswerButton>
@@ -67,13 +67,13 @@ export default function GettingStarted() {
               What kind of help do you need?
             </p>
             <div className="flex flex-col justify-between md:flex-row">
-              <AnswerButton onClick={() => setHasWebsite(false)} isActive={hasWebsite != null && !hasWebsite}>
+              <AnswerButton className="mb-4 md:mb-0 md:mr-4" onClick={() => setHasWebsite(false)} isActive={hasWebsite != null && !hasWebsite}>
                 <img className="w-12 mr-4" src={newSite} alt="new site icon" />
-                <p className="text-2xl font-bold">I Need a Website</p>
+                <p className="text-2xl font-bold">Starting a Website</p>
               </AnswerButton>
-              <AnswerButton onClick={() => setHasWebsite(true)} isActive={hasWebsite != null && hasWebsite}>
+              <AnswerButton className="mb-0 mr-0" onClick={() => setHasWebsite(true)} isActive={hasWebsite != null && hasWebsite}>
                 <img className="w-12 mr-4" src={existingSite} alt="existing site icon" />
-                <p className="text-2xl font-bold">I Have a Website</p>
+                <p className="text-2xl font-bold">Optimizing my Website</p>
               </AnswerButton>
             </div>
           </div>}
