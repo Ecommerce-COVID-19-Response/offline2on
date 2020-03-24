@@ -9,7 +9,7 @@ export default function Agencies() {
       <div className="py-16 bg-gray-100 sm:py-20 md:py-28">
         <div className="relative text-center">
           <h1 className="inline-block text-4xl font-semibold text-gray-900 md:text-5xl">
-            I Want to Offer Help
+            I Want To Offer Help
           </h1>
           <div
             className="absolute bottom-0 w-12 h-1 bg-orange-500 left-1/2"
