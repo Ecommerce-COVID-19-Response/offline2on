@@ -14,7 +14,7 @@ export default function IndexPage() {
         <div className="max-w-screen-lg px-4 py-10 mx-auto sm:py-12 sm:px-6 md:py-16 lg:py-20 xl:py-28">
           <div className="text-center">
             <h2 className="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
-              Get Your Business Online and Back to Work - Fast
+              Get Your Business Online and Back to Work &mdash; Fast
             </h2>
             <p className="max-w-md mx-auto mt-3 text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
               Offline2on.com is a community-led, cross platform
@@ -53,13 +53,11 @@ export default function IndexPage() {
           <img src={socialDistancing} className="md:ml-24 w-96" alt="social distancing icon" />
           <div className="px-0 mt-12 md:mt-0 sm:px-12 md:px-0">
             <p className="mb-4">
-              The unfolding global coronavirus (COVID-19) pandemic is reshaping
-              life and business around the world.
+              The unfolding global coronavirus (COVID-19) pandemic is reshaping life and business around the world.
             </p>
             <p>
-              Small and mid-sized companies are bearing the brunt of the
-              necessary containment measures. The fear of losing traffic and revenue,
-			  making payroll, and of keeping the lights on is apparent.
+              Small- and mid-sized companies are bearing the brunt of the worldwide containment measures. The fear of
+              losing traffic and revenue, making payroll, and of keeping the lights on is apparent.
             </p>
           </div>
         </div>
@@ -71,14 +69,12 @@ export default function IndexPage() {
               Unprecedented times call for unprecedented measures.
             </p>
             <p className="mb-4">
-             We are a global commerce community initiative — spanning organizations with
-			 expertise across all aspects of commerce — all focused on helping
-			 companies navigate these difficult times.
+             We are a global commerce community initiative &mdash; spanning organizations with expertise across all
+              aspects of commerce &mdash; all focused on helping companies navigate these difficult times.
             </p>
 			<p>
-			  Our goal is to provide support for merchants to keep their business running
-			  using e-commerce platforms and expert advice. Merchants will be able to access
-			  designers, solution integrators, developers, and more.
+			  Our goal is to provide support for merchants to keep their business running using e-commerce platforms
+              and expert advice. Merchants will be able to access designers, solution integrators, developers, and more.
 			</p>
           </div>
         </div>
@@ -86,9 +82,9 @@ export default function IndexPage() {
         <div className="flex flex-col items-center mt-24 md:flex-row-reverse">
           <img src={eCommerce} className="md:ml-24 w-96" alt="eCommerce icon" />
           <div className="px-0 mt-12 md:mt-0 sm:px-12 md:px-0">
-           Whether you’re looking for a simple guide to get you started selling online as
-		  quickly as possible, or you require resources to optimize your site for
-		   e-commerce sales, fulfillment, and shipping, you will find what you need.
+           Whether you’re looking for a simple guide to get you started selling online as quickly as possible, or you
+            require resources to optimize your site for e-commerce sales, fulfillment, and shipping, you will find
+            what you need.
           </div>
         </div>
       </div>

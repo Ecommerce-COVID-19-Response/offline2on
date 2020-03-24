@@ -51,15 +51,15 @@ You will need to decide how to pay for shipping. There are several options here:
 - Will you offer expedited shipping? For example, if you sell perishable goods.
 
 
-### Identify carrier services that are available to you.
+### Identify carrier services that are available to you
 If you are only shipping within your municipality, you may be able to handle the deliveries yourself. If you plan to ship further, then you will need to select a carrier.
 
 You will want to consider any local movement restrictions when choosing a carrier that may affect their ability to reach all of your customers. Also take into account that there may be delays with all carriers.
 
-### Determine the amount of time it will take you to get your products shipped. 
+### Determine the amount of time it will take you to get your products shipped
 This is called your “lead time” and you will want to make sure this is clear to customers on your site somewhere. For example, if a customer orders a product today, then you will need to determine how long it will take you to package the product and get it shipped.
 
-### Write a shipping policy.
+### Write a shipping policy
 Once you have determined how you plan to ship your products, you should write a shipping policy for customers so that they know the following:
 
 - How long it takes to ship items
@@ -87,7 +87,7 @@ For more information and help on getting your shipping strategy defined, just fi
 
 You may be required to collect sales tax on online sales, depending on your locality.
 
-## United States
+### United States
 In the United States, forty-five states and Washington DC all have sales tax. States, counties/parishes, cities, and other “special taxing districts” can all charge sales tax. This is why the sales tax amount you charge or pay is sometimes an odd number like 7.125%. 
  
 When you make a sale at your brick and mortar business, you charge the same state + county + city + special sales tax rate to every person who walks in the door. However, when you sell online, this rate often changes. 
@@ -98,8 +98,7 @@ Sound confusing? Thankfully, most online sales platforms like Magento, BigCommer
 
 Right now, the most important thing you can do is ensure you are collecting sales tax from your customers in the state where your brick and mortar store is located. This means you won’t later end up having to pay sales tax out of pocket. But there is more to sales tax when selling online. If you have questions, check out the E-commerce Seller’s Guide to Online Sales Tax.
 
-
-## Europe
+### Europe
 In Europe, this tax is often called Value Added Tax (VAT). In other countries it may be called Gross Receipts Tax (GRT) or have another name. The one thing that these taxes share in common is that they are generally collected from the buyer at the point of sale and then periodically passed on to the governing body.
 
 ### How to Set up Sales Tax Collection
@@ -113,7 +112,6 @@ For more questions around US sales tax collection, reporting and filing, search 
 For more questions around VAT, visit [SimplyVAT.com](https://simplyvat.com/). 
 
 If you’re feeling confused and still need some help with this, just fill out this form and we will connect you with someone who can help!
-
 
 
 ## Choose a Platform 

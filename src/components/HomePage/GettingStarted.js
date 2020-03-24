@@ -67,8 +67,7 @@ export default function GettingStarted() {
               />
             </div>
             <p className="max-w-md mx-auto my-8 text-base text-center text-gray-500 sm:text-lg md:text-xl md:max-w-2xl">
-              Tell us a little bit about your business so we can redirect to the
-              most relevant and helpful resources.
+              Tell us a little bit about your business so we can direct you to the most relevant and helpful resources.
             </p>
           </div>
           <div className="mt-16">

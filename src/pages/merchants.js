@@ -18,7 +18,7 @@ export default function Merchants() {
         </div>
 
         <p className="max-w-xl px-6 mx-auto mt-16 text-center text-gray-500">
-          Many e-commerce agencies worldwide have available capacity to help merchants like you get a website set up fast, or optimize their current online operations, fulfillment and shipping. There is hope and help is on the way!
+          Many e-commerce agencies worldwide have available capacity to help merchants like you get a website set up fast, or optimize their current online operations, fulfillment, and shipping. There is hope and help is on the way!
         </p>
 
         <form
