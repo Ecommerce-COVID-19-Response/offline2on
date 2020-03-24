@@ -64,7 +64,8 @@ module.exports = {
             options: {
               destinationDir: 'static'
             }
-          }
+          },
+          `gatsby-remark-autolink-headers`
         ]
       }
     },
