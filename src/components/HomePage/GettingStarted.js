@@ -39,13 +39,8 @@ function ResultOption({ title, to, description, number }) {
         <p className="mb-4 text-2xl font-bold text-gray-900 md:text-3xl md:text-4xl">
           {title}
         </p>
-        <p className="mb-4 text-gray-600">
-          {description}
-        </p>
-        <Link
-          className="text-orange-500 underline"
-          to={to}
-        >
+        <p className="mb-4 text-gray-600">{description}</p>
+        <Link className="text-orange-500 underline" to={to}>
           Learn More
         </Link>
       </div>
@@ -160,53 +155,52 @@ export default function GettingStarted() {
               Great! Here are some helpful options to get you started.
             </h2>
             <div className="mt-16">
-              {
-                !hasWebsite && businessType === "restaurant" &&
-                    <div>
-                      <ResultOption
-                        number="1"
-                        title="Local Delivery or Pickup Services"
-                        description="Find services available for you to offer"
-                        to="/resources/local-delivery-services/"
-                      />
-                      <ResultOption
-                        number="2"
-                        title="Get Started With Your Own Website"
-                        description="Find eCommerce platforms for your business needs"
-                        to="/resources/how-to-start-a-website/"
-                      />
-                      <ResultOption
-                        number="3"
-                        title="Get in Contact With Agencies Who Can Help"
-                        description="Find help from eCommerce professionals worldwide"
-                        to="/merchants/"
-                      />
-                  </div>
-                }
-                {
-                  !hasWebsite && businessType != "restaurant" &&
-                  <div>
-                    <ResultOption
-                      number="1"
-                      title="List Your Products on a Marketplace"
-                      description="List your products and have them available immediately"
-                      to="/resources/product-marketplaces/"
-                    />
-                    <ResultOption
-                      number="2"
-                      title="Get Started With Your Own Website"
-                      description="Find eCommerce platforms for your business needs"
-                      to="/resources/how-to-start-a-website/"
-                    />
-                    <ResultOption
-                      number="3"
-                      title="Get in Contact With Agencies Who Can Help"
-                      description="Find help from eCommerce professionals worldwide"
-                      to="/merchants/"
-                    />
-                  </div>
-                }
-                { hasWebsite && <div>
+              {!hasWebsite && businessType === 'restaurant' && (
+                <div>
+                  <ResultOption
+                    number="1"
+                    title="Local Delivery or Pickup Services"
+                    description="Find services available for you to offer"
+                    to="/resources/local-delivery-services/"
+                  />
+                  <ResultOption
+                    number="2"
+                    title="Get Started With Your Own Website"
+                    description="Find eCommerce platforms for your business needs"
+                    to="/resources/how-to-start-a-website/"
+                  />
+                  <ResultOption
+                    number="3"
+                    title="Get in Contact With Agencies Who Can Help"
+                    description="Find help from eCommerce professionals worldwide"
+                    to="/merchants/"
+                  />
+                </div>
+              )}
+              {!hasWebsite && businessType != 'restaurant' && (
+                <div>
+                  <ResultOption
+                    number="1"
+                    title="List Your Products on a Marketplace"
+                    description="List your products and have them available immediately"
+                    to="/resources/product-marketplaces/"
+                  />
+                  <ResultOption
+                    number="2"
+                    title="Get Started With Your Own Website"
+                    description="Find eCommerce platforms for your business needs"
+                    to="/resources/how-to-start-a-website/"
+                  />
+                  <ResultOption
+                    number="3"
+                    title="Get in Contact With Agencies Who Can Help"
+                    description="Find help from eCommerce professionals worldwide"
+                    to="/merchants/"
+                  />
+                </div>
+              )}
+              {hasWebsite && (
+                <div>
                   <ResultOption
                     number="1"
                     title="Get in Contact With Agencies Who Can Help"
@@ -214,7 +208,7 @@ export default function GettingStarted() {
                     to="/merchants/"
                   />
                 </div>
-              }
+              )}
             </div>
           </div>
         </section>
