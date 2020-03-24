@@ -1,4 +1,4 @@
-getting-more-helpgetting-more-helpgetting-more-helpgetting-more-help---
+---
 templateKey: resource
 title: Get Started with Your Own Website
 subtitle: So you are interested in starting your own website? Great! We have put together a list of things you will want to prepare for and consider before actually going live.
