@@ -1,4 +1,4 @@
----
+getting-more-helpgetting-more-helpgetting-more-helpgetting-more-help---
 templateKey: resource
 title: Get Started with Your Own Website
 subtitle: So you are interested in starting your own website? Great! We have put together a list of things you will want to prepare for and consider before actually going live.
@@ -10,7 +10,7 @@ subtitle: So you are interested in starting your own website? Great! We have put
 4. [Choose a Platform](#choose-a-platform)
 5. [Get Help From an Agency](#getting-more-help)
 
-## Figure Out What Products you Want to Sell Online {: #figure-out-what-products-you-want-to-sell-online }
+## Figure Out What Products you Want to Sell Online
 
 You will need to determine which of your products you will list online (your “product catalog”). You do not need to include every product you sell, especially when starting out. We recommend starting with your bestsellers, products that are in demand. Once you are up and running, you can add additional products to your catalog.
 
@@ -35,7 +35,7 @@ You can also let your customers know that you have additional products not yet l
 - [Short term revenue strategies for brick & mortar retailers navigating COVID-19](https://www.shopify.com/blog/retail-response-covid-19)
 
 
-## Determine Your Shipping Strategy {: #determine-your-shipping-strategy }
+## Determine Your Shipping Strategy 
 
 One of the reasons you are looking to get online in a hurry is to reach your customers who were once able to do business by coming in your shop. Now, you will need to ship to them. There are several aspects to sorting out a shipping strategy.
 
@@ -83,7 +83,7 @@ Here are some helpful articles on how to create a successful shipping strategy:
 
 For more information and help on getting your shipping strategy defined, just fill out this form and we will connect you with someone who can help!
 
-## Plan for Sales Tax  {: #plan-for-sales-tax }
+## Plan for Sales Tax 
 
 You may be required to collect sales tax on online sales, depending on your locality.
 
@@ -116,7 +116,7 @@ If you’re feeling confused and still need some help with this, just fill out t
 
 
 
-## Choose a Platform {: #choose-a-platform }
+## Choose a Platform 
 
 To be clear, there isn’t one platform that is perfect for every business so as you review the platforms listed below, keep your business in mind. 
 
@@ -157,7 +157,7 @@ Selecting the right platform can feel a little overwhelming so if you feel stuck
 |Webflow               |Easy        |[Hosting included, Theme builder, 24/7 Support, POS integrations<br><br>See all features](https://webflow.com/ecommerce)                                         |Websites starting at $29/month. E-commerce starts at $80/month                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |WooCommerce           |Intermediate|[WordPress required<br><br>Theme builder, Coupons/discounts, POS integrations<br><br>See all features](https://woocommerce.com/features/)                        |Core is free, addons vary. Hosting not included                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
-## Getting More Help {: #getting-more-help }
+## Getting More Help
 
 If you are feeling overwhelmed and could use some guidance through this process, [reach out to us](/merchants) and we will help connect you to a resource or agency that can help!
 
