@@ -70,15 +70,15 @@ export default function IndexPage() {
             <p className="mb-4">
               Unprecedented times call for unprecedented measures.
             </p>
-            <p>
+            <p className="mb-4">
              We are a global commerce community initiative — spanning organizations with
 			 expertise across all aspects of commerce — all focused on helping
 			 companies navigate these difficult times.
             </p>
 			<p>
-			Our goal is to provide support for merchants to keep their business running
-			using e-commerce platforms and expert advice. Merchants will be able to access
-			designers, solution integrators, developers, and more.
+			  Our goal is to provide support for merchants to keep their business running
+			  using e-commerce platforms and expert advice. Merchants will be able to access
+			  designers, solution integrators, developers, and more.
 			</p>
           </div>
         </div>
@@ -86,10 +86,9 @@ export default function IndexPage() {
         <div className="flex flex-col items-center mt-24 md:flex-row-reverse">
           <img src={eCommerce} className="md:ml-24 w-96" alt="eCommerce icon" />
           <div className="px-0 mt-12 md:mt-0 sm:px-12 md:px-0">
-            Whether you’re looking for a simple guide for getting you started
-            selling online within the week or resources to optimize your site
-            for ecommerce sales, fulfillment and shipping there are sources to
-            help.
+           Whether you’re looking for a simple guide to get you started selling online as
+		  quickly as possible, or you require resources to optimize your site for
+		   e-commerce sales, fulfillment, and shipping, you will find what you need.
           </div>
         </div>
       </div>

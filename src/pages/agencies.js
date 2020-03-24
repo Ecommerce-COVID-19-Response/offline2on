@@ -9,7 +9,7 @@ export default function Agencies() {
       <div className="py-16 bg-gray-100 sm:py-20 md:py-28">
         <div className="relative text-center">
           <h1 className="inline-block text-4xl font-semibold text-gray-900 md:text-5xl">
-            For Agencies
+            I Want to Offer Help
           </h1>
           <div
             className="absolute bottom-0 w-12 h-1 bg-orange-500 left-1/2"
@@ -20,6 +20,9 @@ export default function Agencies() {
         <p className="max-w-xl px-6 mx-auto mt-16 text-center text-gray-500">
           If you are an ecommerce agency anywhere in the world who has available capacity to help merchants set up a website or optimize their online operations, fulfillment and shipping and would like to help out in this difficult time, complete this form to add your name to the list.
         </p>
+		<p className="max-w-xl px-6 mx-auto mt-16 text-center text-gray-500">
+		 Once you submit this info you will be able to connect with merchants in need of your services. We’re in this together!
+		</p>
 
         <form
           name="Agency Form"
