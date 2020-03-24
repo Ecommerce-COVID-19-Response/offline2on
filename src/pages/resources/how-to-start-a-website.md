@@ -81,7 +81,7 @@ Here are some helpful articles on how to create a successful shipping strategy:
 - [E-commerce Shipping Strategies, Solutions & Best Practices - BigCommerce](https://www.bigcommerce.com/blog/ecommerce-shipping/)
 - [E-commerce Shipping Strategy Costs, Packaging & Returns - Shipbob](https://www.shipbob.com/blog/ecommerce-shipping/)
 
-For more information and help on getting your shipping strategy defined, just fill out this form and we will connect you with someone who can help!
+For more information and help on getting your shipping strategy defined, just [fill out this form](/merchants) and we will connect you with someone who can help!
 
 ## Plan for Sales Tax 
 
@@ -111,7 +111,7 @@ Consult the links below to get started.
 For more questions around US sales tax collection, reporting and filing, search the [TaxJar blog](https://blog.taxjar.com).
 For more questions around VAT, visit [SimplyVAT.com](https://simplyvat.com/). 
 
-If you’re feeling confused and still need some help with this, just fill out this form and we will connect you with someone who can help!
+If you’re feeling confused and still need some help with this, just [fill out this form](/merchants) and we will connect you with someone who can help!
 
 
 ## Choose a Platform 
@@ -128,7 +128,7 @@ Not all platforms are available in all countries. Does it support all the langua
 ### How quickly can I get up and running?
 The size and complexity of your business will have an impact on how quickly you can get online. For example, if your business does a lot of B2B and you have complex price lists that vary by customer group, or if you need to set different product prices based on currency, it will take longer to get up and running.
 
-Do you have access to support if you get stuck? Will you need a developer to handle some features and if so, do you have access to a developer? If not, that’s ok! Just fill out this form to get some help.
+Do you have access to support if you get stuck? Will you need a developer to handle some features and if so, do you have access to a developer? If not, that’s ok! Just [fill out this form](/merchants) to get some help.
 
 ### Does the platform have everything I need?
 Not every platform will have the features that you need to run your business. Some platforms may work right out of the box; others may require additional customizations. Most e-commerce platforms allow customizations in the form of third-party plugins. Investigate what plugins are available for the features that you need
