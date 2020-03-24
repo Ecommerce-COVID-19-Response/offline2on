@@ -6,10 +6,8 @@ import './all.sass';
 import useSiteMetadata from './SiteMetadata';
 import image from '../../static/img/og-image.jpg';
 
-const URL = 'https://offline2on.com/';
-
 const TemplateWrapper = ({ children }) => {
-  const { title, description } = useSiteMetadata();
+  const { title, description, url } = useSiteMetadata();
 
   return (
     <div>
@@ -21,39 +19,38 @@ const TemplateWrapper = ({ children }) => {
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href={`${URL}img/apple-touch-icon.png`}
+          href={`${url}/img/apple-touch-icon.png`}
         />
         <link
           rel="icon"
           type="image/png"
-          href={`${URL}img/favicon-32x32.png`}
+          href={`${url}/img/favicon-32x32.png`}
           sizes="32x32"
         />
         <link
           rel="icon"
           type="image/png"
-          href={`${URL}img/favicon-16x16.png`}
+          href={`${url}/img/favicon-16x16.png`}
           sizes="16x16"
         />
 
         <link
           rel="mask-icon"
-          href={`${URL}img/safari-pinned-tab.svg`}
+          href={`${url}/img/safari-pinned-tab.svg`}
           color="#ff4400"
         />
         <meta name="theme-color" content="#fff" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content={`${URL}img/og-image.jpg`} />
+        <meta name="twitter:image" content={`${url}/img/og-image.jpg`} />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={title} />
-        {/* <meta name="twitter:image" content={`${URL}img/og-image.jpg`} /> */}
-        <meta name="twitter:image" content={image} />
+        <meta name="twitter:image" content={`${url}/img/og-image.jpg`} />
 
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content={title} />
         <meta property="og:url" content={URL} />
-        <meta property="og:image" content={`${URL}img/og-image.jpg`} />
+        <meta property="og:image" content={`${url}/img/og-image.jpg`} />
       </Helmet>
       <Navbar />
       <div>{children}</div>
