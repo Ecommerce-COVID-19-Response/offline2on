@@ -17,7 +17,7 @@ export default function IndexPage() {
               eCommerce Community Support & Resources for Merchants
             </h2>
             <p className="max-w-md mx-auto mt-3 text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-              Offline2on.com is a community-led, not for profit, cross platform
+              Offline2on.com is a community-led, cross platform
               initiative to support businesses in ramping their e-commerce
               efforts in the wake of COVID-19 by connecting merchants with the
               resources, developers, platforms, and partners they need to take
