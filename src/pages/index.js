@@ -14,11 +14,11 @@ export default function IndexPage() {
         <div className="max-w-screen-lg px-4 py-10 mx-auto sm:py-12 sm:px-6 md:py-16 lg:py-20 xl:py-28">
           <div className="text-center">
             <h2 className="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
-              eCommerce Community Support & Resources for Merchants
+              Get Your Business Online and Back to Work - Fast
             </h2>
             <p className="max-w-md mx-auto mt-3 text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
               Offline2on.com is a community-led, cross platform
-              initiative to support businesses in ramping their e-commerce
+              initiative to support businesses in ramping up their e-commerce
               efforts in the wake of COVID-19 by connecting merchants with the
               resources, developers, platforms, and partners they need to take
               action.
@@ -58,8 +58,8 @@ export default function IndexPage() {
             </p>
             <p>
               Small and mid-sized companies are bearing the brunt of the
-              necessary containment measures and worrying about losing loyal
-              traffic, revenue, payroll, and keeping the lights on.
+              necessary containment measures. The fear of losing traffic and revenue,
+			  making payroll, and of keeping the lights on is apparent.
             </p>
           </div>
         </div>
@@ -71,13 +71,15 @@ export default function IndexPage() {
               Unprecedented times call for unprecedented measures.
             </p>
             <p>
-              This is a global commerce community initiative -- spanning
-              organizations with expertise across all aspects of commerce -- all
-              focused on helping companies navigate these difficult times. Our
-              goal is to provide support for merchants to keep business running
-              using eCommerce platforms and experience from designers, solution
-              integrators and developers.
+             We are a global commerce community initiative — spanning organizations with
+			 expertise across all aspects of commerce — all focused on helping
+			 companies navigate these difficult times.
             </p>
+			<p>
+			Our goal is to provide support for merchants to keep their business running
+			using e-commerce platforms and expert advice. Merchants will be able to access
+			designers, solution integrators, developers, and more.
+			</p>
           </div>
         </div>
 
