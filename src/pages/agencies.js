@@ -35,7 +35,7 @@ export default function Agencies() {
               Business Information
             </h2>
             <p className="mx-8 mt-4 text-gray-500">
-              Once you submit this info you will be able to connect with merchants in need of your services. We’re in this together!
+            Once you have been vetted you will then be added to a public directory so that retailers may contact you, and potentially receive requests for assistance through us.
             </p>
           </div>
 

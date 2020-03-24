@@ -7,7 +7,7 @@ export default () => (
       <div className="container">
         <div className="content">
           <h1>Thank you!</h1>
-          <p>This is a custom thank you page for form submissions</p>
+          <p>Your information has been successfully submitted to Offline2On.com, and our team will be in touch with your shortly!</p>
         </div>
       </div>
     </section>
