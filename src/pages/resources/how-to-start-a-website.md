@@ -83,8 +83,6 @@ Here are some helpful articles on how to create a successful shipping strategy:
 
 For more information and help on getting your shipping strategy defined, just fill out this form and we will connect you with someone who can help!
 
-
-
 ## Plan for Sales Tax 
 
 You may be required to collect sales tax on online sales, depending on your locality.
@@ -160,5 +158,6 @@ Selecting the right platform can feel a little overwhelming so if you feel stuck
 |WooCommerce           |Intermediate|[WordPress required<br><br>Theme builder, Coupons/discounts, POS integrations<br><br>See all features](https://woocommerce.com/features/)                        |Core is free, addons vary. Hosting not included                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
 ## Getting More Help
-If you are feeling overwhelmed and could use some guidance through this process, [reach out to us](../merchants) and we will help connect you to a resource or agency that can help!
+
+If you are feeling overwhelmed and could use some guidance through this process, [reach out to us](/merchants) and we will help connect you to a resource or agency that can help!
 
