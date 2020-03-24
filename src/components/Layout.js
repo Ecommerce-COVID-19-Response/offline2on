@@ -4,7 +4,6 @@ import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import './all.sass';
 import useSiteMetadata from './SiteMetadata';
-import image from '../../static/img/og-image.jpg';
 
 const TemplateWrapper = ({ children }) => {
   const { title, description, url } = useSiteMetadata();
@@ -46,7 +45,7 @@ const TemplateWrapper = ({ children }) => {
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={`${url}/img/og-image.jpg`} />
 
-        <meta property="og:type" content="business.business" />
+        <meta property="og:type" content="website" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:url" content={url} />
