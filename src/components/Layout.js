@@ -40,15 +40,15 @@ const TemplateWrapper = ({ children }) => {
           color="#ff4400"
         />
         <meta name="theme-color" content="#fff" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content={`${url}/img/og-image.jpg`} />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={`${url}/img/og-image.jpg`} />
 
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
         <meta property="og:url" content={URL} />
         <meta property="og:image" content={`${url}/img/og-image.jpg`} />
       </Helmet>
