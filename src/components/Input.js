@@ -23,6 +23,7 @@ export default function Input({
             name={id}
             className="block w-full transition duration-150 ease-in-out form-input sm:text-sm sm:leading-5"
             style={{ marginBottom: 0 }} // override style affected by a Sass mixin
+            placeholder={props.required ? 'Required' : ''}
             {...props}
           />
         ) : inputType === 'textarea' ? (
@@ -32,6 +33,7 @@ export default function Input({
             name={id}
             className="block w-full transition duration-150 ease-in-out form-textarea form-input sm:text-sm sm:leading-5"
             style={{ marginBottom: 0 }} // override style affected by a Sass mixin
+            placeholder={props.required ? 'Required' : ''}
             {...props}
           />
         ) : inputType === 'select' ? (
