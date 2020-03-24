@@ -34,4 +34,4 @@ Below is a list of marketplaces by country and region. You can click on any of t
 
 
 ## Getting More Help
-If none of these services will work for you need help exploring other options. [Reach out to us](../merchants) and we will help connect you to a resource or agency that can help!
+If none of these services will work for you need help exploring other options. [Reach out to us](/merchants) and we will help connect you to a resource or agency that can help!

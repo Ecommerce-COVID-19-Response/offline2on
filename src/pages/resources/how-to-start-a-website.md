@@ -4,13 +4,13 @@ title: Get Started with Your Own Website
 subtitle: So you are interested in starting your own website? Great! We have put together a list of things you will want to prepare for and consider before actually going live.
 ---
 
-1. Figure Out What Products you Want to Sell Online
-2. Determine Your Shipping Strategy
-3. Plan for Sales Tax 
-4. Choose a Platform
-5. Get Help From an Agency
+1. [Figure Out What Products you Want to Sell Online](#figure-out-what-products-you-want-to-sell-online)
+2. [Determine Your Shipping Strategy](#determine-your-shipping-strategy)
+3. [Plan for Sales Tax](#plan-for-sales-tax)
+4. [Choose a Platform](#choose-a-platform)
+5. [Get Help From an Agency](#getting-more-help)
 
-# Figure Out What Products you Want to Sell Online r
+## Figure Out What Products you Want to Sell Online
 
 You will need to determine which of your products you will list online (your “product catalog”). You do not need to include every product you sell, especially when starting out. We recommend starting with your bestsellers, products that are in demand. Once you are up and running, you can add additional products to your catalog.
 
@@ -27,11 +27,12 @@ You may also consider selling gift certificates; these can be a great way to inc
 You can also let your customers know that you have additional products not yet listed; provide a phone number and an email address for them to reach out if they cannot find what they need.
 
 ### Additional Resources
-[How to Use your Smartphone to Capture High Quality Product Images](https://www.pixelz.com/blog/use-smartphone-to-capture-high-quality-product-images/)
-[From Retail to e-tail: Taking your brick & mortar store online](https://www.bigcommerce.com/blog/brick-and-mortar/)
-[How to future proof your brick & mortar store](https://www.shopify.com/retail/how-to-future-proof-your-brick-and-mortar-store)
-[Understanding the impact of COVID-19 on shopper behavior](https://www.bigcommerce.com/blog/covid-19-ecommerce/)
-[Short term revenue strategies for brick & mortar retailers navigating COVID-19](https://www.shopify.com/blog/retail-response-covid-19)
+
+- [How to Use your Smartphone to Capture High Quality Product Images](https://www.pixelz.com/blog/use-smartphone-to-capture-high-quality-product-images/)
+- [From Retail to e-tail: Taking your brick & mortar store online](https://www.bigcommerce.com/blog/brick-and-mortar/)
+- [How to future proof your brick & mortar store](https://www.shopify.com/retail/how-to-future-proof-your-brick-and-mortar-store)
+- [Understanding the impact of COVID-19 on shopper behavior](https://www.bigcommerce.com/blog/covid-19-ecommerce/)
+- [Short term revenue strategies for brick & mortar retailers navigating COVID-19](https://www.shopify.com/blog/retail-response-covid-19)
 
 
 ## Determine Your Shipping Strategy 
@@ -81,8 +82,6 @@ Here are some helpful articles on how to create a successful shipping strategy:
 - [E-commerce Shipping Strategy Costs, Packaging & Returns - Shipbob](https://www.shipbob.com/blog/ecommerce-shipping/)
 
 For more information and help on getting your shipping strategy defined, just fill out this form and we will connect you with someone who can help!
-
-
 
 ## Plan for Sales Tax 
 
@@ -159,5 +158,6 @@ Selecting the right platform can feel a little overwhelming so if you feel stuck
 |WooCommerce           |Intermediate|[WordPress required<br><br>Theme builder, Coupons/discounts, POS integrations<br><br>See all features](https://woocommerce.com/features/)                        |Core is free, addons vary. Hosting not included                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
 ## Getting More Help
-If you are feeling overwhelmed and could use some guidance through this process, [reach out to us](../merchants) and we will help connect you to a resource or agency that can help!
+
+If you are feeling overwhelmed and could use some guidance through this process, [reach out to us](/merchants) and we will help connect you to a resource or agency that can help!
 
