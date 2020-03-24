@@ -4,13 +4,13 @@ title: Get Started with Your Own Website
 subtitle: So you are interested in starting your own website? Great! We have put together a list of things you will want to prepare for and consider before actually going live.
 ---
 
-1. Figure Out What Products you Want to Sell Online
-2. Determine Your Shipping Strategy
-3. Plan for Sales Tax 
-4. Choose a Platform
-5. Get Help From an Agency
+1. [Figure Out What Products you Want to Sell Online](#figure-out-what-products-you-want-to-sell-online)
+2. [Determine Your Shipping Strategy](#determine-your-shipping-strategy)
+3. [Plan for Sales Tax](#plan-for-sales-tax)
+4. [Choose a Platform](#choose-a-platform)
+5. [Get Help From an Agency](#getting-more-help)
 
-# Figure Out What Products you Want to Sell Online r
+## Figure Out What Products you Want to Sell Online
 
 You will need to determine which of your products you will list online (your “product catalog”). You do not need to include every product you sell, especially when starting out. We recommend starting with your bestsellers, products that are in demand. Once you are up and running, you can add additional products to your catalog.
 

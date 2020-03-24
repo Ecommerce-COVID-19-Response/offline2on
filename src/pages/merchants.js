@@ -9,7 +9,7 @@ export default function Merchants() {
       <div className="py-16 bg-gray-100 sm:py-20 md:py-28">
         <div className="relative text-center">
           <h1 className="inline-block text-4xl font-semibold text-gray-900 md:text-5xl">
-            For Merchants
+            Find an Agency to Help You Get Online Fast
           </h1>
           <div
             className="absolute bottom-0 w-12 h-1 bg-orange-500 left-1/2"

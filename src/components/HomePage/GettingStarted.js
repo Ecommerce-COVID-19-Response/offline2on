@@ -109,7 +109,7 @@ export default function GettingStarted() {
               <div className="leading-none">
                 <p className="mb-4 text-2xl font-bold text-gray-900 md:text-3xl md:text-4xl">Get in Contact With Agencies Who Can Help</p>
                 <p className="mb-4 text-gray-600">Find help from eCommerce professionals worldwide</p>
-                <Link className="text-orange-500 underline" to="/resources/product-marketplaces/">Learn More</Link>
+                <Link className="text-orange-500 underline" to="/merchants/">Learn More</Link>
               </div>
             </div>
           </div>
