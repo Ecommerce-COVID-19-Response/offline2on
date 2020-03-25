@@ -119,7 +119,7 @@ export default function GettingStarted() {
                 <AnswerButton
                   className="mb-4 md:mb-0 md:mr-4"
                   onClick={() => setHasWebsite(false)}
-                  isActive={hasWebsite != null && !hasWebsite}
+                  isActive={hasWebsite !== null && !hasWebsite}
                 >
                   <img
                     className="w-12 mr-4"
@@ -131,7 +131,7 @@ export default function GettingStarted() {
                 <AnswerButton
                   className="mb-0 mr-0"
                   onClick={() => setHasWebsite(true)}
-                  isActive={hasWebsite != null && hasWebsite}
+                  isActive={hasWebsite !== null && hasWebsite}
                 >
                   <img
                     className="w-12 mr-4"
@@ -148,7 +148,7 @@ export default function GettingStarted() {
 
       {/* Result */}
 
-      {businessType && hasWebsite != null && (
+      {businessType && hasWebsite !== null && (
         <section className="bg-white">
           <div className="max-w-screen-md px-4 py-20 mx-auto text-lg">
             <h2 className="max-w-2xl text-4xl font-bold leading-10 tracking-tight text-center text-gray-900 md:text-5xl sm:leading-none">
@@ -183,7 +183,7 @@ export default function GettingStarted() {
                   />
                 </div>
               )}
-              {!hasWebsite && businessType != 'restaurant' && (
+              {!hasWebsite && businessType !== 'restaurant' && (
                 <div>
                   <ResultOption
                     number="1"
