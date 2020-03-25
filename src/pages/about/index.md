@@ -10,7 +10,7 @@ in the wake of COVID-19 by connecting merchants with the resources, developers, 
 We are made up of over 900+ technologists, designers, writers, marketers, PR professionals, as well as industry leaders from 
 all over the world in the e-commerce space, working with platforms such as Shopify, BigCommerce and Magento, and more.
 
-## Our Purpose:
+## Our Purpose
 Our goals are simple:
 1. Provide a centralized source of unbiased information to merchants.
 2. Provide a place for merchants to request help.
