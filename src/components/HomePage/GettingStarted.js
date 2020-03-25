@@ -67,7 +67,8 @@ export default function GettingStarted() {
               />
             </div>
             <p className="max-w-md mx-auto my-8 text-base text-center text-gray-500 sm:text-lg md:text-xl md:max-w-2xl">
-              Tell us a little bit about your business so we can direct you to the most relevant and helpful resources.
+              Tell us a little bit about your business so we can direct you to
+              the most relevant and helpful resources.
             </p>
           </div>
           <div className="mt-16">
@@ -174,6 +175,12 @@ export default function GettingStarted() {
                     description="Find help from eCommerce professionals worldwide"
                     to="/merchants/"
                   />
+                  <ResultOption
+                    number="4"
+                    title="Get Advice on Marketing and Advertising"
+                    description="Get the word out to current shoppers"
+                    to="/resources/marketing-advertising/"
+                  />
                 </div>
               )}
               {!hasWebsite && businessType != 'restaurant' && (
@@ -196,12 +203,24 @@ export default function GettingStarted() {
                     description="Find help from eCommerce professionals worldwide"
                     to="/merchants/"
                   />
+                  <ResultOption
+                    number="4"
+                    title="Get Advice on Marketing and Advertising"
+                    description="Get the word out to current shoppers"
+                    to="/resources/marketing-advertising/"
+                  />
                 </div>
               )}
               {hasWebsite && (
                 <div>
                   <ResultOption
                     number="1"
+                    title="Get Advice on Marketing and Advertising"
+                    description="Get the word out to current shoppers"
+                    to="/resources/marketing-advertising/"
+                  />
+                  <ResultOption
+                    number="2"
                     title="Get in Contact With Agencies Who Can Help"
                     description="Find help from eCommerce professionals worldwide"
                     to="/merchants/"
