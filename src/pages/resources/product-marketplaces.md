@@ -1,6 +1,6 @@
 ---
 templateKey: resource
-title: List Your Products on a Marketplace Today
+title: List Your Products on a Marketplace
 subtitle: There are a multitude of marketplaces where you can list your products and have them available immediately.   
 ---
 
@@ -34,4 +34,5 @@ Below is a list of marketplaces by country and region. You can click on any of t
 
 
 ## Getting More Help
-If none of these services will work for you need help exploring other options. [Reach out to us](/merchants) and we will help connect you to a resource or agency that can help!
+If none of these services will work for you or need help exploring other options, [reach out to us](/merchants) and we will 
+help connect you to a resource or agency that can help!

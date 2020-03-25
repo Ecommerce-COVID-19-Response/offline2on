@@ -46,4 +46,5 @@ DeliverDirect has put together [a helpful list of all food delivery servies in E
 4. [Uber Eats](https://www.ubereats.com/restaurant/en-US/signup)
 
 ## Getting More Help
-If none of these services will work for you, or you need help exploring other options. Reach out to us and we will help connect you to a resource or agency that can help!
+If none of these services will work for you, or you need help exploring other options, reach out to us and we will help 
+connect you to a resource or agency that can help!
