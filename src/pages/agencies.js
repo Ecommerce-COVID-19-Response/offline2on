@@ -54,11 +54,50 @@ export default function Agencies() {
             id="expertise"
             label="Business Expertise"
             hint="Tell us more about how you can help merchants."
-          />
+            inputType="select"
+            multiple
+          >
+            <option value="Website Design">Website Design</option>
+            <option value="Custom Development and Support">Custom Development and Support</option>
+            <option value="Shipping and Logistics">Shipping and Logistics</option>
+            <option value="Marketing and Advertising">Marketing and Advertising</option>
+            <option value="Fulfillment">Fulfillment</option>
+            <option value="Copywriting">Copywriting</option>
+            <option value="Branding">Branding</option>
+            <option value="Other">Other</option>
+          </Input>
+          <Input id="expertise-other" label="Other:" hint="If you can offer other expertise, please specify"/>
 
-          <Input id="platforms" label="Which platforms you work with?" />
 
-          <Input id="location" label="Where are you located?" />
+          <Input 
+            id="platforms" 
+            label="Which platforms you work with?"
+            inputType="select"
+            multiple
+          >
+            <option value="BigCommerce">BigCommerce</option>
+            <option value="Shopify">Shopify</option>
+            <option value="Magento">Magento</option>
+            <option value="Shopware">Shopware</option>
+            <option value="Other">Other</option>
+          </Input>
+
+          <Input id="platforms-other" label="Other:" hint="If you worth with other platforms, please specify"/>
+
+          <Input 
+            id="location"  
+            label="Where are you located?"
+            inputType="select"
+          >
+            <option value="Australia or New Zealand">Australia or New Zealand</option>
+            <option value="Canada">Canada</option>
+            <option value="Europe">Europe</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="United States">United States</option>
+            <option value="Other">Other</option>
+          </Input>
+
+          <Input id="location-other" label="Other:" hint="If you work on another region, please specify"/>
 
           <Input
             id="help_needed"
