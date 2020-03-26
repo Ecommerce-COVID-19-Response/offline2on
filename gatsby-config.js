@@ -103,7 +103,7 @@ module.exports = {
               Merchant_Budget: '',
               Location: '',
               Notes: '',
-              Agency_Expertise: '',
+              Agency_Expertise: [],
               Platforms: '',
               Type: '', // Agency | Merchant
               Created_At: '',

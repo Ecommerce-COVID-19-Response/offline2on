@@ -69,7 +69,7 @@ export const query = graphql`
             Merchant_Vertical
             Merchant_Budget
             Merchant_Ships
-            Agency_Expertise_Old
+            Agency_Expertise
             Platforms
           }
         }
