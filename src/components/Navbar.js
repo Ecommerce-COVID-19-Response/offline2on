@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import { useLocation } from '@reach/router';
+import { useSpring, animated } from 'react-spring';
 import classNames from 'classnames';
 import useOnclickOutside from 'react-cool-onclickoutside';
 import offline2onLogo from '../img/Offline2On-Logo-FC.svg';
@@ -26,8 +27,14 @@ export default function Navbar() {
   const [isResourcesOpen, setIsResourcesOpen] = React.useState(false);
 
   const resourceRef = React.useRef();
-  useOnclickOutside(resourceRef, () => {
+  const menuButtonRef = React.useRef();
+  useOnclickOutside([resourceRef, menuButtonRef], () => {
     setIsResourcesOpen(false);
+  });
+
+  const animatedStyle = useSpring({
+    transform: isResourcesOpen ? 'scale(1)' : 'scale(0)',
+    config: { mass: 1, tension: 180, friction: 20 }
   });
 
   return (
@@ -74,30 +81,33 @@ export default function Navbar() {
 
               <div className="relative">
                 <button
-                  onClick={() => setIsResourcesOpen(!isResourcesOpen)}
+                  ref={menuButtonRef}
+                  onClick={() => setIsResourcesOpen(true)}
                   className="inline-flex items-center h-full px-1 pt-1 ml-8 text-sm font-medium leading-5 text-gray-500 transition duration-150 ease-in-out border-b-2 border-transparent hover:border-gray-300 focus:outline-none focus:border-orange-700"
                 >
                   Resources
                 </button>
 
-                <div
-                  ref={resourceRef}
+                <animated.div
+                  style={animatedStyle}
                   // x-transition:enter="transition ease-out duration-100"
                   // x-transition:enter-start="transform opacity-0 scale-95"
                   // x-transition:enter-end="transform opacity-100 scale-100"
                   // x-transition:leave="transition ease-in duration-75"
                   // x-transition:leave-start="transform opacity-100 scale-100"
                   // x-transition:leave-end="transform opacity-0 scale-95"
-                  className={classNames(
-                    'absolute right-0 w-48 mt-2 origin-top-right rounded-md shadow-lg z-50',
-                    isResourcesOpen ? 'block' : 'hidden'
-                  )}
+                  className="absolute right-0 z-50 w-48 mt-2 origin-top-right rounded-md shadow-lg"
+                  aria-hidden={JSON.stringify(!isResourcesOpen)}
                 >
-                  <div class="py-1 rounded-md bg-white shadow-xs" onClickOu>
+                  <div
+                    class="py-1 rounded-md bg-white shadow-xs"
+                    ref={resourceRef}
+                  >
                     <Link
                       href="#"
                       className="block px-4 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
                       style={{ marginBottom: 0 }}
+                      tabIndex={isResourcesOpen ? '0' : '-1'}
                     >
                       Agency Directory
                     </Link>
@@ -105,6 +115,7 @@ export default function Navbar() {
                       href="#"
                       className="block px-4 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
                       style={{ marginBottom: 0 }}
+                      tabIndex={isResourcesOpen ? '0' : '-1'}
                     >
                       Food Delivery Services
                     </Link>
@@ -112,6 +123,7 @@ export default function Navbar() {
                       href="#"
                       className="block px-4 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
                       style={{ marginBottom: 0 }}
+                      tabIndex={isResourcesOpen ? '0' : '-1'}
                     >
                       Marketplaces
                     </Link>
@@ -119,6 +131,7 @@ export default function Navbar() {
                       href="#"
                       className="block px-4 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
                       style={{ marginBottom: 0 }}
+                      tabIndex={isResourcesOpen ? '0' : '-1'}
                     >
                       Ecommerce Platforms
                     </Link>
@@ -126,6 +139,7 @@ export default function Navbar() {
                       href="#"
                       className="block px-4 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
                       style={{ marginBottom: 0 }}
+                      tabIndex={isResourcesOpen ? '0' : '-1'}
                     >
                       Shipping & Logistics
                     </Link>
@@ -133,6 +147,7 @@ export default function Navbar() {
                       href="#"
                       className="block px-4 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
                       style={{ marginBottom: 0 }}
+                      tabIndex={isResourcesOpen ? '0' : '-1'}
                     >
                       Advertising & Marketing
                     </Link>
@@ -140,11 +155,12 @@ export default function Navbar() {
                       href="#"
                       className="block px-4 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
                       style={{ marginBottom: 0 }}
+                      tabIndex={isResourcesOpen ? '0' : '-1'}
                     >
                       B2B
                     </Link>
                   </div>
-                </div>
+                </animated.div>
               </div>
             </div>
             <div className="flex items-center -mr-2 sm:hidden">
