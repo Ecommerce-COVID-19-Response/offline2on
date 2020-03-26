@@ -1,8 +1,8 @@
 ---
 templateKey: resource
-title: Advice on Marketing & Advertising
+title: Advice on Marketing and Advertising
 subtitle: >-
-  A beginner's guide for getting started with online marketing and advertising
+  A beginner's guide to getting started with online marketing and advertising
   for your business.
 ---
 
