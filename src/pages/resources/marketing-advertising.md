@@ -1,7 +1,9 @@
 ---
 templateKey: resource
-title: Advice On Marketing & Advertising
-subtitle: A beginners guide for getting started with online marketing & advertising for your business.  
+title: Advice on Marketing & Advertising
+subtitle: >-
+  A beginner's guide for getting started with online marketing and advertising
+  for your business.
 ---
 
 ### Benefits Of Marketing and Advertising for Small Businesses
