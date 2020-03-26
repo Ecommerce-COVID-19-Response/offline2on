@@ -14,7 +14,7 @@ subtitle: >-
 
 ## Figure Out What Products you Want to Sell Online
 
-You will need to determine which of your products you will list online (your “product catalog”). You do not need to include every product you sell, especially when starting out. We recommend starting with your bestsellers, products that are in demand. Once you are up and running, you can add additional products to your catalog...
+You will need to determine which of your products you will list online (your “product catalog”). You do not need to include every product you sell, especially when starting out. We recommend starting with your bestsellers, products that are in demand. Once you are up and running, you can add additional products to your catalog.
 
 For each product, include the following information:
 
