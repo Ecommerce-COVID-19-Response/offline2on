@@ -34,6 +34,7 @@ export default function Navbar() {
 
   const animatedStyle = useSpring({
     transform: isResourcesOpen ? 'scale(1)' : 'scale(0)',
+    opacity: isResourcesOpen ? 1 : 0,
     config: { mass: 1, tension: 180, friction: 20 }
   });
 
@@ -90,12 +91,6 @@ export default function Navbar() {
 
                 <animated.div
                   style={animatedStyle}
-                  // x-transition:enter="transition ease-out duration-100"
-                  // x-transition:enter-start="transform opacity-0 scale-95"
-                  // x-transition:enter-end="transform opacity-100 scale-100"
-                  // x-transition:leave="transition ease-in duration-75"
-                  // x-transition:leave-start="transform opacity-100 scale-100"
-                  // x-transition:leave-end="transform opacity-0 scale-95"
                   className="absolute right-0 z-50 w-48 mt-2 origin-top-right rounded-md shadow-lg"
                   aria-hidden={JSON.stringify(!isResourcesOpen)}
                 >
