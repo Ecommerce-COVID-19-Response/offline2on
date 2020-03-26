@@ -1,10 +1,12 @@
 import React from 'react';
+import Select from 'react-select';
 
 export default function Input({
   id,
   label,
   inputType = 'input',
   hint = null,
+  options = null,
   ...props
 }) {
   return (
@@ -44,6 +46,13 @@ export default function Input({
             style={{ marginBottom: 0 }} // override style affected by a Sass mixin
             {...props}
           />
+        ) : inputType === 'multiselect' ? (
+          <Select 
+          id={id}
+          name={id}
+          isMulti
+          className="block w-full transition duration-150 ease-in-out  sm:text-sm sm:leading-5"
+          options={options} /> 
         ) : null}
 
         {hint && <p className="mt-2 text-sm text-gray-500">{hint}</p>}

@@ -2,6 +2,35 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Button from '../components/Button';
 import Input from '../components/Input';
+import Select from 'react-select';
+
+const expertise_options = [
+  { value: 'Website Design', label: 'Website Design'},
+  { value: 'Custom Development and Support', label: 'Custom Development and Support'},
+  { value: 'Shipping and Logistics', label: 'Shipping and Logistics'},
+  { value: 'Marketing and Advertising', label: 'Marketing and Advertising'},
+  { value: 'Fulfillment', label: 'Fulfillment'},
+  { value: 'Copywriting', label: 'Copywriting'},
+  { value: 'Branding', label: 'Branding'},
+  { value: 'Other', label: 'Other'},
+]
+
+const platform_options = [
+  { value: 'BigCommerce', label: 'BigCommerce'},
+  { value: 'Shopify', label: 'Shopify'},
+  { value: 'Magento', label: 'Magento'},
+  { value: 'Shopware', label: 'Shopware'},
+  { value: 'Other', label: 'Other'}, 
+]
+
+const location_options = [
+  { value: 'Australia or New Zealand', label: 'Australia or New Zealand'}, 
+  { value: 'Canada', label: 'Canada'}, 
+  { value: 'Europe', label: 'Europe'}, 
+  { value: 'United Kingdom', label: 'United Kingdom'}, 
+  { value: 'United States', label: 'United States'}, 
+
+]
 
 export default function Agencies() {
   return (
@@ -50,53 +79,29 @@ export default function Agencies() {
 
           <Input id="business-name" label="Business Name" />
 
+
           <Input
-            id="expertise"
             label="Business Expertise"
-            hint="Tell us more about how you can help merchants."
-            inputType="select"
-            multiple
-          >
-            <option value="Website Design">Website Design</option>
-            <option value="Custom Development and Support">Custom Development and Support</option>
-            <option value="Shipping and Logistics">Shipping and Logistics</option>
-            <option value="Marketing and Advertising">Marketing and Advertising</option>
-            <option value="Fulfillment">Fulfillment</option>
-            <option value="Copywriting">Copywriting</option>
-            <option value="Branding">Branding</option>
-            <option value="Other">Other</option>
-          </Input>
+            id="expertise"
+            inputType="multiselect" 
+            options={expertise_options} />
           <Input id="expertise-other" label="Other:" hint="If you can offer other expertise, please specify"/>
 
 
           <Input 
             id="platforms" 
             label="Which platforms you work with?"
-            inputType="select"
-            multiple
-          >
-            <option value="BigCommerce">BigCommerce</option>
-            <option value="Shopify">Shopify</option>
-            <option value="Magento">Magento</option>
-            <option value="Shopware">Shopware</option>
-            <option value="Other">Other</option>
-          </Input>
-
+            inputType="multiselect"
+            options={platform_options} 
+          />
           <Input id="platforms-other" label="Other:" hint="If you worth with other platforms, please specify"/>
 
           <Input 
             id="location"  
             label="Where are you located?"
-            inputType="select"
-          >
-            <option value="Australia or New Zealand">Australia or New Zealand</option>
-            <option value="Canada">Canada</option>
-            <option value="Europe">Europe</option>
-            <option value="United Kingdom">United Kingdom</option>
-            <option value="United States">United States</option>
-            <option value="Other">Other</option>
-          </Input>
-
+            inputType="multiselect"
+            options={location_options} 
+          />
           <Input id="location-other" label="Other:" hint="If you work on another region, please specify"/>
 
           <Input
