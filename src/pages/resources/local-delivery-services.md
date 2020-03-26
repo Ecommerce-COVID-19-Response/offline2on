@@ -1,7 +1,10 @@
 ---
 templateKey: resource
 title: Access Local Delivery or Curbside Pickup Services
-subtitle: There are many food delivery services available, and some are waiving their fees at this time for independent restaurants. Here is a list of services for different countries.  
+subtitle: >-
+  There are many food delivery services available, and some are waiving their
+  fees at this time for independent restaurants. Here is a list of services for
+  different countries.
 ---
 
 Below is a list of food delivery services by country and region. You can click on any of the links to check out these services and the specific cities they deliver to. Find a service that works for you and register to start using them today.
@@ -21,7 +24,7 @@ Below is a list of food delivery services by country and region. You can click o
 3. [Lieferando (Germany)](https://www.lieferando.de/)
 4. [Uber Eats](https://www.ubereats.com/restaurant/en-US/signup)
 
-DeliverDirect has put together [a helpful list of all food delivery servies in Europe](https://welcome.deliverect.com/download-list-of-food-delivery-platforms-europe) and which countries they serve. 
+DeliverDirect has put together [a helpful list of all food delivery services in Europe](https://welcome.deliverect.com/download-list-of-food-delivery-platforms-europe) and which countries they serve. 
 
 ### UK 
 
