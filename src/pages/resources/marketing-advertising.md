@@ -9,8 +9,7 @@ subtitle: >-
 
 As you venture into an online business, you’ll need to get the word out to your current shoppers. Even if you are a community leader, expanding your customer base beyond your local community can drive your sales substantially higher.
 
-You have two broad options to become more visible - marketing and advertising. Marketing often appeals directly to customers’ lives. You will seek to address their concerns, educate them about products, and solve problems that they face in their daily life. Advertising is an excellent way to showcase product benefits 
-and comparisons, and other direct-to-customer benefits.
+You have two broad options to become more visible — marketing and advertising. Marketing often appeals directly to customers’ lives. You will seek to address their concerns, educate them about products, and solve problems that they face in their daily life. Advertising is an excellent way to showcase product benefits  and comparisons, and other direct-to-customer benefits.
 
 When you invest in one or both of these avenues, you can expect to see more visitors to your website and social media channels, more conversations with potential customers, and more sales as a result. 
 
@@ -28,13 +27,11 @@ Things to highlight with advertising include:
 
 Guerilla marketing is a way of integrating your business with your audience, educating  them about a need they may not know they have, and showing them that you can solve their problem. It also tends to involve entertaining them in creative ways. Search the web for “[Flash Mob](https://www.delnext.com/blog/en/most-famous-flash-mobs/)” and “[Sopranos Taxi Marketing](http://ta-guerillamarketing.blogspot.com/2011/01/sopranos-dead-mafia-in-cab.html)” to see a couple of examples. The same theories can be recreated online.
 
-When we are all stuck at home, we need connection now, more than ever. Look for  ways that your business can help people connect from home. Whether you’re selling coffee via local delivery and offering small coffee-side chats online or you’re selling beauty supplies and offering free tutorial chats over Skype, getting 
-involved can go a long way in these distanced times. 
+When we are all stuck at home, we need connection now, more than ever. Look for  ways that your business can help people connect from home. Whether you’re selling coffee via local delivery and offering small coffee-side chats online or you’re selling beauty supplies and offering free tutorial chats over Skype, getting  involved can go a long way in these distanced times. 
 
 ### Setting Up Google My Business
 
-*Google My Business* provides you with visibility on the world’s largest  search engine. Here, you can list a link to your website, a photo for your business, street address, contact information, and even a short description 
-of your business. One other key benefit to listing on Google My Business is the review system, which shows how you stack up against your competition.
+*Google My Business* provides you with visibility on the world’s largest  search engine. Here, you can list a link to your website, a photo for your business, street address, contact information, and even a short description  of your business. One other key benefit to listing on Google My Business is the review system, which shows how you stack up against your competition.
 
 Learn more about [setting up your Google My Business Account](https://support.google.com/business/answer/6300717?hl=en).
 
@@ -46,7 +43,7 @@ Learn more about [setting up your Bing My Business Account](https://synup.com/ho
 
 ### Setting Up Yelp For Business
 
-Over 102 million people use Yelp each month -- and 92% of consumers make a  purchase after visiting the platform. Yelp data is integrated into search results on Apple products. As a local business, setting up a *Yelp for Business* profile  helps potential customers find your store or restaurant -- whether you’re currently selling online or in-person. Yelp also allows business owners to view and respond to customer reviews and provide updated business information such as hours, contact details, product photos.
+Over 102 million people use Yelp each month — and 92% of consumers make a  purchase after visiting the platform. Yelp data is integrated into search results on Apple products. As a local business, setting up a *Yelp for Business* profile  helps potential customers find your store or restaurant — whether you’re currently selling online or in-person. Yelp also allows business owners to view and respond to customer reviews and provide updated business information such as hours, contact details, product photos.
 
 Learn more about [setting up your Yelp For Business Account](https://www.yelp-support.com/article/How-do-I-claim-a-business-page?l=en_US).
 
