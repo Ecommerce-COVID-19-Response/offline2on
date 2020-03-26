@@ -6,13 +6,13 @@ subtitle: >-
   together a list of things you will want to prepare for and consider before
   actually going live.
 ---
-1. [Figure Out What Products you Want to Sell Online](#figure-out-what-products-you-want-to-sell-online)
+1. [Figure out What Products You Want to Sell Online](#figure-out-what-products-you-want-to-sell-online)
 2. [Determine Your Shipping Strategy](#determine-your-shipping-strategy)
 3. [Plan for Sales Tax](#plan-for-sales-tax)
 4. [Choose a Platform](#choose-a-platform)
 5. [Get Help From an Agency](#getting-more-help)
 
-## Figure Out What Products you Want to Sell Online
+## Figure out What Products You Want to Sell Online
 
 You will need to determine which of your products you will list online (your “product catalog”). You do not need to include every product you sell, especially when starting out. We recommend starting with your bestsellers, products that are in demand. Once you are up and running, you can add additional products to your catalog.
 
@@ -27,30 +27,30 @@ For each product, include the following information:
 
 You may also consider selling gift certificates; these can be a great way to increase your cash flow short term.
 
-You can also let your customers know that you have additional products not yet listed; provide a phone number and an email address for them to reach out if they cannot find what they need.
+You can also let your customers know that you have additional products not yet listed; provide a phone number and an email address to allow them to reach out if they cannot find what they need.
 
 ### Additional Resources
 
-* [How to Use your Smartphone to Capture High Quality Product Images](https://www.pixelz.com/blog/use-smartphone-to-capture-high-quality-product-images/)
-* [From Retail to e-tail: Taking your brick & mortar store online](https://www.bigcommerce.com/blog/brick-and-mortar/)
-* [How to future proof your brick & mortar store](https://www.shopify.com/retail/how-to-future-proof-your-brick-and-mortar-store)
-* [Understanding the impact of COVID-19 on shopper behavior](https://www.bigcommerce.com/blog/covid-19-ecommerce/)
-* [Short term revenue strategies for brick & mortar retailers navigating COVID-19](https://www.shopify.com/blog/retail-response-covid-19)
+* [How to Use Your Smartphone to Capture High Quality Product Images](https://www.pixelz.com/blog/use-smartphone-to-capture-high-quality-product-images/)
+* [From Retail to e-tail: Taking Your Brick and Mortar Store Online](https://www.bigcommerce.com/blog/brick-and-mortar/)
+* [How to Future Proof Your Brick and Mortar Store](https://www.shopify.com/retail/how-to-future-proof-your-brick-and-mortar-store)
+* [Understanding the Impact of COVID-19 on Shopper Behavior](https://www.bigcommerce.com/blog/covid-19-ecommerce/)
+* [Short-term Revenue Strategies for Brick and Mortar Retailers Navigating COVID-19](https://www.shopify.com/blog/retail-response-covid-19)
 
 ## Determine Your Shipping Strategy
 
-One of the reasons you are looking to get online in a hurry is to reach your customers who were once able to do business by coming in your shop. Now, you will need to ship to them. There are several aspects to sorting out a shipping strategy.
+One of the reasons you are looking to get online in a hurry is to reach your customers who were once able to do business by coming into your shop. Now, you will need to ship to them. There are several aspects to sorting out a shipping strategy.
 
 ### Where will you ship?
 
-Will you be shipping locally only, domestically, or internationally?
+Will you be shipping locally, domestically, or internationally?
 
 ### How will you pay for shipping?
 
 You will need to decide how to pay for shipping. There are several options here:
 
-* Have the customer pay in full. This would mean that you will get a shipping rate in real time from a carrier and pass that on to the customer
-* Offer flat rate shipping. This is a simpler method, but you will need to determine what price to charge that is appealing to both your customers and your bottom line.
+* Have the customer pay in full. This would mean that you will get a shipping rate in real time from a carrier and pass that on to the customer.
+* Offer flat-rate shipping. This is a simpler method, but you will need to determine what price to charge that is appealing to both your customers and your bottom line.
 * Offer free shipping. You could build the shipping price into the cost of your products. In today’s world of Amazon Prime, this type of offer is very tempting to customers.
 * Will you need to charge a handling fee?
 * Will you offer expedited shipping? For example, if you sell perishable goods.
