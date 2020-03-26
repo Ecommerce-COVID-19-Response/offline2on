@@ -46,12 +46,19 @@ export default function Agencies() {
           />
         </div>
 
-        <p className="max-w-xl px-6 mx-auto mt-16 text-center text-gray-500">
-          If you are an e-commerce agency anywhere in the world who has available capacity to help merchants set up a website or optimize their online operations, fulfillment, and shipping and would like to help out in this difficult time, complete this form to add your name to the list.
+        <p className="max-w-4xl px-6 py-2 mx-auto mt-14 text-center text-gray-500">
+          Doing e-commerce well is just like doing business well. There isn’t an easy button for everything. Sometimes it takes work, care, and love. We need help getting people online.        
         </p>
-		<p className="max-w-xl px-6 mx-auto mt-16 text-center text-gray-500">
-		  Once you submit this info you will be able to connect with merchants in need of your services. We’re in this together!
-		</p>
+        <p className="max-w-4xl px-6 py-4 mx-auto mt-1 text-center text-gray-500">
+          Are you an e-commerce agency? Do you build websites? Are you a business who is already doing e-commerce on your own and can teach others?
+        </p>
+        
+        <p className="max-w-4xl px-6 mx-auto mt-4  text-center text-gray-500">
+        If you have the available bandwidth to help get businesses online, we would love to hear from you! This form adds you to our list of agencies willing to help get business owners online. When a request comes in that matches your expertise, we’ll contact you.
+        </p>
+        <p className="max-w-4xl px-6 mx-auto mt-4  text-center text-gray-500">
+        We’re in this together!
+        </p>
 
         <form
           name="Agency Form"
@@ -67,8 +74,7 @@ export default function Agencies() {
               Business Information
             </h2>
             <p className="mx-8 mt-4 text-gray-500">
-            Agencies can join the initiative by visiting offline2on.com/agencies and completing a short request form. Once vetted, the agency will be added to a public directory on the site to be contacted by either the business directly or by Offline2On on behalf of a particular business.
-            </p>
+            Once you complete the form and are vetted, your agency will be added to the public directory to be contacted directly by businesses or by Offline2On on behalf of a particular business.            </p>
           </div>
 
           <Input id="name" label="Name" required />
