@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'gatsby';
+import { Link } from 'gatsby';
 
 // import logo from '../img/logo2.svg';
 // import facebook from '../img/social/facebook.svg';
@@ -250,6 +250,12 @@ export default function Footer() {
           <p class="mt-8 text-base leading-6 text-gray-400 md:mt-0 md:order-1">
             &copy; {new Date().getFullYear()} Offline2on. All rights reserved.
           </p>
+          <Link
+            className="ml-6 text-gray-400 hover:text-gray-300"
+            to="/privacy-policy"
+          >
+            Privacy Policy
+          </Link>
         </div>
       </div>
     </div>

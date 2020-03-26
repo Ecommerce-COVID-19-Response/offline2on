@@ -4,7 +4,6 @@ import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import './all.sass';
 import useSiteMetadata from './SiteMetadata';
-import image from '../../static/img/og-image.jpg';
 
 const TemplateWrapper = ({ children }) => {
   const { title, description, url } = useSiteMetadata();

@@ -67,8 +67,8 @@ export default function GettingStarted() {
               />
             </div>
             <p className="max-w-md mx-auto my-8 text-base text-center text-gray-500 sm:text-lg md:text-xl md:max-w-2xl">
-              Tell us a little bit about your business so we can redirect to the
-              most relevant and helpful resources.
+              Tell us a little bit about your business so we can direct you to
+              the most relevant and helpful resources.
             </p>
           </div>
           <div className="mt-16">
@@ -119,7 +119,7 @@ export default function GettingStarted() {
                 <AnswerButton
                   className="mb-4 md:mb-0 md:mr-4"
                   onClick={() => setHasWebsite(false)}
-                  isActive={hasWebsite != null && !hasWebsite}
+                  isActive={hasWebsite !== null && !hasWebsite}
                 >
                   <img
                     className="w-12 mr-4"
@@ -131,7 +131,7 @@ export default function GettingStarted() {
                 <AnswerButton
                   className="mb-0 mr-0"
                   onClick={() => setHasWebsite(true)}
-                  isActive={hasWebsite != null && hasWebsite}
+                  isActive={hasWebsite !== null && hasWebsite}
                 >
                   <img
                     className="w-12 mr-4"
@@ -148,7 +148,7 @@ export default function GettingStarted() {
 
       {/* Result */}
 
-      {businessType && hasWebsite != null && (
+      {businessType && hasWebsite !== null && (
         <section className="bg-white">
           <div className="max-w-screen-md px-4 py-20 mx-auto text-lg">
             <h2 className="max-w-2xl text-4xl font-bold leading-10 tracking-tight text-center text-gray-900 md:text-5xl sm:leading-none">
@@ -175,9 +175,15 @@ export default function GettingStarted() {
                     description="Find help from eCommerce professionals worldwide"
                     to="/merchants/"
                   />
+                  <ResultOption
+                    number="4"
+                    title="Get Advice on Marketing and Advertising"
+                    description="Get the word out to current shoppers"
+                    to="/resources/marketing-advertising/"
+                  />
                 </div>
               )}
-              {!hasWebsite && businessType != 'restaurant' && (
+              {!hasWebsite && businessType !== 'restaurant' && (
                 <div>
                   <ResultOption
                     number="1"
@@ -197,12 +203,24 @@ export default function GettingStarted() {
                     description="Find help from eCommerce professionals worldwide"
                     to="/merchants/"
                   />
+                  <ResultOption
+                    number="4"
+                    title="Get Advice on Marketing and Advertising"
+                    description="Get the word out to current shoppers"
+                    to="/resources/marketing-advertising/"
+                  />
                 </div>
               )}
               {hasWebsite && (
                 <div>
                   <ResultOption
                     number="1"
+                    title="Get Advice on Marketing and Advertising"
+                    description="Get the word out to current shoppers"
+                    to="/resources/marketing-advertising/"
+                  />
+                  <ResultOption
+                    number="2"
                     title="Get in Contact With Agencies Who Can Help"
                     description="Find help from eCommerce professionals worldwide"
                     to="/merchants/"
