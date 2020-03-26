@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { useLocation } from '@reach/router';
 import classNames from 'classnames';
+import useOnclickOutside from 'react-cool-onclickoutside';
 import offline2onLogo from '../img/Offline2On-Logo-FC.svg';
-
 
 function NavLink({ className, to, isActive, children }) {
   return (
@@ -23,6 +23,12 @@ function NavLink({ className, to, isActive, children }) {
 export default function Navbar() {
   const location = useLocation();
   const [isOpen, setIsOpen] = React.useState(false);
+  const [isResourcesOpen, setIsResourcesOpen] = React.useState(false);
+
+  const resourceRef = React.useRef();
+  useOnclickOutside(resourceRef, () => {
+    setIsResourcesOpen(false);
+  });
 
   return (
     <nav className="bg-white shadow">
@@ -32,13 +38,24 @@ export default function Navbar() {
             <div className="flex items-center flex-shrink-0">
               <Link to="/">
                 <div className="w-24">
-                  <img src={offline2onLogo} className="header-logo" alt="Offline2On" />
+                  <img
+                    src={offline2onLogo}
+                    className="header-logo"
+                    alt="Offline2On"
+                  />
                 </div>
               </Link>
             </div>
             <div className="hidden sm:ml-6 sm:flex">
               <NavLink to="/about" isActive={location.pathname === '/about'}>
                 About
+              </NavLink>
+              <NavLink
+                to="/faq"
+                isActive={location.pathname === '/faq'}
+                className="ml-8"
+              >
+                FAQ
               </NavLink>
               <NavLink
                 to="/merchants"
@@ -54,13 +71,81 @@ export default function Navbar() {
               >
                 For Agencies
               </NavLink>
-              <NavLink
-                to="/directory"
-                isActive={location.pathname === '/directory'}
-                className="ml-8"
-              >
-                Directory
-              </NavLink>
+
+              <div className="relative">
+                <button
+                  onClick={() => setIsResourcesOpen(!isResourcesOpen)}
+                  className="inline-flex items-center h-full px-1 pt-1 ml-8 text-sm font-medium leading-5 text-gray-500 transition duration-150 ease-in-out border-b-2 border-transparent hover:border-gray-300 focus:outline-none focus:border-orange-700"
+                >
+                  Resources
+                </button>
+
+                <div
+                  ref={resourceRef}
+                  // x-transition:enter="transition ease-out duration-100"
+                  // x-transition:enter-start="transform opacity-0 scale-95"
+                  // x-transition:enter-end="transform opacity-100 scale-100"
+                  // x-transition:leave="transition ease-in duration-75"
+                  // x-transition:leave-start="transform opacity-100 scale-100"
+                  // x-transition:leave-end="transform opacity-0 scale-95"
+                  className={classNames(
+                    'absolute right-0 w-48 mt-2 origin-top-right rounded-md shadow-lg z-50',
+                    isResourcesOpen ? 'block' : 'hidden'
+                  )}
+                >
+                  <div class="py-1 rounded-md bg-white shadow-xs" onClickOu>
+                    <Link
+                      href="#"
+                      className="block px-4 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
+                      style={{ marginBottom: 0 }}
+                    >
+                      Agency Directory
+                    </Link>
+                    <Link
+                      href="#"
+                      className="block px-4 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
+                      style={{ marginBottom: 0 }}
+                    >
+                      Food Delivery Services
+                    </Link>
+                    <Link
+                      href="#"
+                      className="block px-4 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
+                      style={{ marginBottom: 0 }}
+                    >
+                      Marketplaces
+                    </Link>
+                    <Link
+                      href="#"
+                      className="block px-4 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
+                      style={{ marginBottom: 0 }}
+                    >
+                      Ecommerce Platforms
+                    </Link>
+                    <Link
+                      href="#"
+                      className="block px-4 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
+                      style={{ marginBottom: 0 }}
+                    >
+                      Shipping & Logistics
+                    </Link>
+                    <Link
+                      href="#"
+                      className="block px-4 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
+                      style={{ marginBottom: 0 }}
+                    >
+                      Advertising & Marketing
+                    </Link>
+                    <Link
+                      href="#"
+                      className="block px-4 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
+                      style={{ marginBottom: 0 }}
+                    >
+                      B2B
+                    </Link>
+                  </div>
+                </div>
+              </div>
             </div>
             <div className="flex items-center -mr-2 sm:hidden">
               <button
