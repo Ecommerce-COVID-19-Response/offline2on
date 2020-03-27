@@ -21,6 +21,24 @@ function NavLink({ className, to, isActive, children }) {
   );
 }
 
+function MobileNavLink({ className, to, isActive, children, style }) {
+  return (
+    <Link
+      to={to}
+      className={classNames(
+        'block py-2 px-3 text-base font-medium leading-5 border-l-4 border-transparent transition duration-150 ease-in-out hover:bg-gray-100',
+        isActive &&
+          'text-orange-700 border-orange-500 bg-orange-50 focus:text-orange-800 focus:bg-orange-100 focus:border-orange-700',
+        !isActive && 'text-gray-700 focus:outline-none focus:bg-gray-100',
+        className
+      )}
+      style={style}
+    >
+      {children}
+    </Link>
+  );
+}
+
 export default function Navbar() {
   const location = useLocation();
   const [isOpen, setIsOpen] = React.useState(false);
@@ -194,33 +212,43 @@ export default function Navbar() {
       </div>
       <div className={classNames('', isOpen ? 'block' : 'hidden')}>
         <div className="pt-2 pb-3">
-          <Link
+          <MobileNavLink
             to="/about"
-            className="block py-2 pl-3 pr-4 text-base font-medium text-orange-700 transition duration-150 ease-in-out border-l-4 border-orange-500 bg-orange-50 focus:outline-none focus:text-orange-800 focus:bg-orange-100 focus:border-orange-700"
+            style={{ marginBottom: 0 }}
+            isActive={location.pathname === '/about'}
           >
             About
-          </Link>
-          <Link
+          </MobileNavLink>
+          <MobileNavLink
             to="/resources/frequently-asked-questions"
-            className="block py-2 pl-3 pr-4 mt-1 text-base font-medium text-gray-600 transition duration-150 ease-in-out border-l-4 border-transparent hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:bg-gray-50 focus:border-gray-300"
+            style={{ marginBottom: 0 }}
+            className="mt-1"
+            isActive={
+              location.pathname === '/resources/frequently-asked-questions'
+            }
           >
             FAQ
-          </Link>
-          <Link
+          </MobileNavLink>
+          <MobileNavLink
             to="/merchants"
-            className="block py-2 pl-3 pr-4 mt-1 text-base font-medium text-gray-600 transition duration-150 ease-in-out border-l-4 border-transparent hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:bg-gray-50 focus:border-gray-300"
+            style={{ marginBottom: 0 }}
+            className="mt-1"
+            isActive={location.pathname === '/merchants'}
           >
             For Merchants
-          </Link>
-          <Link
+          </MobileNavLink>
+          <MobileNavLink
             to="/agencies"
-            className="block py-2 pl-3 pr-4 mt-1 text-base font-medium text-gray-600 transition duration-150 ease-in-out border-l-4 border-transparent hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:bg-gray-50 focus:border-gray-300"
+            style={{ marginBottom: 0 }}
+            className="mt-1"
+            isActive={location.pathname === '/agencies'}
           >
             For Agencies
-          </Link>
+          </MobileNavLink>
           <div
             to="/"
-            className="block py-2 pl-3 pr-4 mt-1 text-base font-medium text-gray-600 transition duration-150 ease-in-out border-l-4 border-transparent hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:bg-gray-50 focus:border-gray-300"
+            className="block px-3 py-2 mt-1 text-base font-medium text-gray-600 transition duration-150 ease-in-out border-l-4 border-transparent hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:bg-gray-50 focus:border-gray-300"
+            style={{ marginBottom: 0 }}
           >
             Resources
             <div>
