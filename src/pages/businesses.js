@@ -50,7 +50,7 @@ const financial_options = [
   { value: 'My business will not survive the pandemic', label: 'My business will not survive the pandemic'},
 ]
 
-export default function Merchants() {
+export default function Businesses() {
   return (
     <Layout>
       <div className="py-16 bg-gray-100 sm:py-20 md:py-28">
