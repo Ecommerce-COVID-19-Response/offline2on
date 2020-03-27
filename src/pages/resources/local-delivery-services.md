@@ -21,14 +21,12 @@ DeliverDirect has put together [a helpful list of all food delivery services in 
 1. [Bolt Food](https://food.bolt.eu/en-us/)
 2. [Glovo (Spain)](https://glovoapp.com/en/partners/sales)
 3. [Lieferando (Germany)](https://www.lieferando.de/)
-4. [Orders2me (Italy, Germany)](http://www.orders2.me)
 5. [Uber Eats](https://www.ubereats.com/restaurant/en-US/signup)
 
 ### UK
 
 1. [Bolt Food](https://food.bolt.eu/en-us/)
 2. [Deliveroo UK](https://restaurants.deliveroo.com/en-au/)
-3. [Orders2me (Ireland, UK)](http://www.orders2.me)
 4. [Uber Eats](https://www.ubereats.com/restaurant/en-UK/signup)
 
 ### United States
