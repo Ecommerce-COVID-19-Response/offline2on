@@ -118,14 +118,14 @@ export default function Navbar() {
                     className="py-1 bg-white rounded-md shadow-xs"
                     ref={resourceRef}
                   >
-                    <Link
+                    {/* <Link
                       to="/directory"
                       className="block px-4 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
                       style={{ marginBottom: 0 }}
                       tabIndex={isResourcesOpen ? '0' : '-1'}
                     >
                       Agency Directory
-                    </Link>
+                    </Link> */}
                     <Link
                       to="/resources/local-delivery-services"
                       className="block px-4 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
@@ -135,7 +135,7 @@ export default function Navbar() {
                       Food Delivery Services
                     </Link>
                     <Link
-                      to="/"
+                      to="/resources/product-marketplaces"
                       className="block px-4 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
                       style={{ marginBottom: 0 }}
                       tabIndex={isResourcesOpen ? '0' : '-1'}
