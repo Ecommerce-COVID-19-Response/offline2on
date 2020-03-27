@@ -1,6 +1,6 @@
 ---
 templateKey: resource
-title: Access Local Delivery or Curbside Pickup Services
+title: Food Delivery Services
 subtitle: >-
   There are many food delivery services available, and some are waiving their
   fees at this time for independent restaurants. Here is a list of services for
