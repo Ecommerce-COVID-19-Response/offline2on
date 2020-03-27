@@ -90,7 +90,7 @@ export default function Navbar() {
                 isActive={location.pathname === '/merchants'}
                 className="ml-8"
               >
-                For Merchants
+                For Businesses 
               </NavLink>
               <NavLink
                 to="/agencies"
