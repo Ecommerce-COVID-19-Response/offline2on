@@ -103,7 +103,7 @@ export default function Navbar() {
               <div className="relative">
                 <button
                   ref={menuButtonRef}
-                  onClick={() => setIsResourcesOpen(true)}
+                  onClick={() => setIsResourcesOpen(!isResourcesOpen)}
                   className="inline-flex items-center h-full px-1 pt-1 ml-8 text-sm font-medium leading-5 text-gray-500 transition duration-150 ease-in-out border-b-2 border-transparent hover:border-gray-300 focus:outline-none focus:border-orange-700"
                 >
                   Resources
