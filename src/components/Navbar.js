@@ -148,7 +148,7 @@ export default function Navbar() {
                       style={{ marginBottom: 0 }}
                       tabIndex={isResourcesOpen ? '0' : '-1'}
                     >
-                      Ecommerce Platforms
+                      E-commerce Platforms
                     </Link>
                     {/* <Link
                       to="/"
@@ -282,7 +282,7 @@ export default function Navbar() {
                 style={{ marginBottom: 0 }}
                 tabIndex={isResourcesOpen ? '0' : '-1'}
               >
-                Ecommerce Platforms
+                E-commerce Platforms
               </Link>
               {/* <Link
                 to="/"
