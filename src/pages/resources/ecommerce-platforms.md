@@ -46,67 +46,67 @@ For these platforms, we’ve highlighted the following features:
 
 #### BigCommerce
 
-* Price: Starting at $29.95/month
-* Special offer: [3 months free on all retail plans for new merchants](https://www.bigcommerce.com/covid19/)
-* Features: Small to large catalog, hosting included, theme builder, coupons/discounts, 24/7 support, POS integrations ([see all features](https://www.bigcommerce.com/product/))
-* Additional notes: Offers an integration with WordPress (WordPress site hosting required)
+* **Price:** Starting at $29.95/month
+* **Special offer:** [3 months free on all retail plans for new merchants](https://www.bigcommerce.com/covid19/)
+* **Features:** Small to large catalog, hosting included, theme builder, coupons/discounts, 24/7 support, POS integrations ([see all features](https://www.bigcommerce.com/product/))
+* **Additional notes:** Offers an integration with WordPress (WordPress site hosting required)
 * [Contact for more information](https://www.bigcommerce.com/essentials/request-a-demo/)
 
 #### Magento Open Source
 
-* Price:Starting cost varies based on hosting (no licensing fee)
-* Features:Small to large catalog, coupons/discounts, POS integrations ([see all features](https://magento.com/compare-open-source-and-magento-commerce))
-* Additional notes:Developer required for initial build and ongoing maintenance
+* **Price:** Starting cost varies based on hosting (no licensing fee)
+* **Features:** Small to large catalog, coupons/discounts, POS integrations ([see all features](https://magento.com/compare-open-source-and-magento-commerce))
+* **Additional notes:** Developer required for initial build and ongoing maintenance
 * [Contact for more information](https://magento.com/compare-open-source-and-magento-commerce)
-
-#### Prestashop
-
-* Price:starting cost varies based on hosting (no licensing fee)
-* Features: Small to large catalog, coupons/discounts, POS integrations ([see all features](https://www.prestashop.com/en/features))
-* Additional notes:Developer required for initial build and ongoing maintenance
-* [Contact for more information](https://www.prestashop.com/en/contact)
 
 #### Shopify
 
-* Price:starting at $29/month
-* Special offer:[Extended 90-day trial for new merchants](https://www.shopify.com/covid19)
-* Features: Small to Medium catalog, hosting included, theme builder, coupons/discounts, 24/7 support, POS integrations ([see all features](https://www.shopify.com/pricing))
-* Additional notes:Integration with Shopify POS; business owners not using Shopify Payments are subject to additional transaction fees
+* **Price:** Starting at $29/month
+* **Special offer:** [Extended 90-day trial for new merchants](https://www.shopify.com/covid19)
+* **Features:** Small to medium catalog, hosting included, theme builder, coupons/discounts, 24/7 support, POS integrations ([see all features](https://www.shopify.com/pricing))
+* **Additional notes:** Integration with Shopify POS; business owners not using Shopify Payments are subject to additional transaction fees
 * [Contact for more information](https://www.shopify.com/contact)
+
+#### Prestashop
+
+* **Price:** Starting cost varies based on hosting (no licensing fee)
+* **Features:** Small to large catalog, coupons/discounts, POS integrations ([see all features](https://www.prestashop.com/en/features))
+* **Additional notes:** Developer required for initial build and ongoing maintenance
+* [Contact for more information](https://www.prestashop.com/en/contact)
 
 #### Shopware
 
-* Price:starting cost varies based on hosting (no licensing fee).
-* Features: Small to large catalog, coupons/discounts, 24/7 support, POS integrations ([see all features](https://www.shopware.com/en/products/shopware-6/))
-* Additional notes:Developer required for initial build and ongoing maintenance
+* **Price:** Starting cost varies based on hosting (no licensing fee).
+* **Features:** Small to large catalog, coupons/discounts, 24/7 support, POS integrations ([see all features](https://www.shopware.com/en/products/shopware-6/))
+* **Additional notes:** Developer required for initial build and ongoing maintenance
 * [Contact for more information](https://www.shopware.com/en/contact/)
 
 #### Square
 
-* Price:starting at $0/month
-* Features:Small catalog, Hosting included, Theme builder, Coupons/discounts, POS integration ([see all features](https://squareup.com/us/en/online-store))
-* Additional notes:Payment method limited to Square; integrates with Square POS
+* **Price:** Starting at $0/month
+* **Features:** Small catalog, hosting included, theme builder, coupons/discounts, POS integrations ([see all features](https://squareup.com/us/en/online-store))
+* **Additional notes:** Payment method limited to Square; integrates with Square POS
 * [Contact for more information](https://squareup.com/us/en/sales)
 
 #### SquareSpace
 
-* Price:Websites start at $16/month, e-commerce starts at $26/month
-* Features:Small catalog, Hosting included, Theme builder, Coupons/discounts, POS integrations ([see all features](https://www.squarespace.com/ecommerce-website))
-* Additional notes:Support for selling services & subscriptions
+* **Price:** Websites start at $16/month, e-commerce starts at $26/month
+* **Features:** Small catalog, hosting included, theme builder, coupons/discounts, POS integrations ([see all features](https://www.squarespace.com/ecommerce-website))
+* **Additional notes:** Support for selling services and subscriptions
 * [Contact for more information](https://www.squarespace.com/contact)
 
 #### Wix
 
-* Price:Websites start at $13/month, e-commerce starts at $23/month
-* Features:Small catalog, hosting included, theme builder, coupons/discounts, 24/7 support, POS integrations ([see all features](https://www.wix.com/ecommerce/website))
-* Additional notes:Support for selling services, events and building a member forum
+* **Price:** Websites start at $13/month, e-commerce starts at $23/month
+* **Features:** Small catalog, hosting included, theme builder, coupons/discounts, 24/7 support, POS integrations ([see all features](https://www.wix.com/ecommerce/website))
+* **Additional notes:** Support for selling services, events and building a member forum
 * [Contact for more information](https://www.wix.com/about/contact-us)
 
 #### WooCommerce
 
-* Price:starting cost varies based on hosting (no licensing fee)
-* Features:Small catalog, theme builder, coupons/discounts, POS integrations ([see all features](https://woocommerce.com/features/))
-* Additional notes:WordPress required
+* **Price:** Starting cost varies based on hosting (no licensing fee)
+* **Features:** Small catalog, theme builder, coupons/discounts, POS integrations ([see all features](https://woocommerce.com/features/))
+* **Additional notes:** WordPress required
 * [Contact for more information](https://woocommerce.com/contact-us/)
 
 ### Mid-market and Enterprise Businesses
