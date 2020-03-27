@@ -119,7 +119,7 @@ export default function Navbar() {
                     ref={resourceRef}
                   >
                     <Link
-                      to="/"
+                      to="/directory"
                       className="block px-4 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
                       style={{ marginBottom: 0 }}
                       tabIndex={isResourcesOpen ? '0' : '-1'}
@@ -127,7 +127,7 @@ export default function Navbar() {
                       Agency Directory
                     </Link>
                     <Link
-                      to="/"
+                      to="/resources/local-delivery-services"
                       className="block px-4 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
                       style={{ marginBottom: 0 }}
                       tabIndex={isResourcesOpen ? '0' : '-1'}
@@ -143,37 +143,37 @@ export default function Navbar() {
                       Marketplaces
                     </Link>
                     <Link
-                      to="/"
+                      to="/resources/ecommerce-platfroms"
                       className="block px-4 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
                       style={{ marginBottom: 0 }}
                       tabIndex={isResourcesOpen ? '0' : '-1'}
                     >
                       Ecommerce Platforms
                     </Link>
-                    <Link
+                    {/* <Link
                       to="/"
                       className="block px-4 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
                       style={{ marginBottom: 0 }}
                       tabIndex={isResourcesOpen ? '0' : '-1'}
                     >
                       Shipping & Logistics
-                    </Link>
+                    </Link> */}
                     <Link
-                      to="/"
+                      to="/resources/marketing-advertising"
                       className="block px-4 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
                       style={{ marginBottom: 0 }}
                       tabIndex={isResourcesOpen ? '0' : '-1'}
                     >
                       Advertising & Marketing
                     </Link>
-                    <Link
+                    {/* <Link
                       to="/"
                       className="block px-4 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
                       style={{ marginBottom: 0 }}
                       tabIndex={isResourcesOpen ? '0' : '-1'}
                     >
                       B2B
-                    </Link>
+                    </Link> */}
                   </div>
                 </animated.div>
               </div>
@@ -252,16 +252,16 @@ export default function Navbar() {
           >
             Resources
             <div>
-              <Link
+              {/* <Link
                 to="/"
                 className="block px-2 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
                 style={{ marginBottom: 0 }}
                 tabIndex={isResourcesOpen ? '0' : '-1'}
               >
                 Agency Directory
-              </Link>
+              </Link> */}
               <Link
-                to="/"
+                to="/resources/local-delivery-services"
                 className="block px-2 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
                 style={{ marginBottom: 0 }}
                 tabIndex={isResourcesOpen ? '0' : '-1'}
@@ -269,7 +269,7 @@ export default function Navbar() {
                 Food Delivery Services
               </Link>
               <Link
-                to="/"
+                to="/resources/product-marketplaces"
                 className="block px-2 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
                 style={{ marginBottom: 0 }}
                 tabIndex={isResourcesOpen ? '0' : '-1'}
@@ -277,37 +277,37 @@ export default function Navbar() {
                 Marketplaces
               </Link>
               <Link
-                to="/"
+                to="/resources/ecommerce-platforms"
                 className="block px-2 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
                 style={{ marginBottom: 0 }}
                 tabIndex={isResourcesOpen ? '0' : '-1'}
               >
                 Ecommerce Platforms
               </Link>
-              <Link
+              {/* <Link
                 to="/"
                 className="block px-2 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
                 style={{ marginBottom: 0 }}
                 tabIndex={isResourcesOpen ? '0' : '-1'}
               >
                 Shipping & Logistics
-              </Link>
+              </Link> */}
               <Link
-                to="/"
+                to="/resources/marketing-advertising"
                 className="block px-2 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
                 style={{ marginBottom: 0 }}
                 tabIndex={isResourcesOpen ? '0' : '-1'}
               >
                 Advertising & Marketing
               </Link>
-              <Link
+              {/* <Link
                 to="/"
                 className="block px-2 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
                 style={{ marginBottom: 0 }}
                 tabIndex={isResourcesOpen ? '0' : '-1'}
               >
                 B2B
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
