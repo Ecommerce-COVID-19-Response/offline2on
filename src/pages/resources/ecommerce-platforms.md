@@ -1,6 +1,6 @@
 ---
 templateKey: resource
-title: Ecommerce Platforms
+title: E-commerce Platforms
 subtitle: Choose an e-commerce platform
 ---
 To be clear, there isn’t one platform that is perfect for every business so as you review the platforms listed below, keep your business in mind.
