@@ -1,5 +1,6 @@
 ---
 templateKey: resource
+slug: faq
 title: Frequently Asked Questions
 subtitle: ' '
 ---
