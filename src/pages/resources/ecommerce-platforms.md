@@ -25,7 +25,7 @@ Not every platform will have the features that you need to run your business. So
 
 ## Platforms to Consider
 
-### Small and Medium Business Platforms
+### Small and Medium Businesses
 
 Below is a short list of the most popular e-commerce platforms that merchants new to selling online should consider. The list is broken into two main categories based on business size.
 
