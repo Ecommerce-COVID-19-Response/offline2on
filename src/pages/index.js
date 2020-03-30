@@ -5,25 +5,24 @@ import GettingStarted from '../components/HomePage/GettingStarted';
 import socialDistancing from '../img/social-distancing.svg';
 import global from '../img/global.svg';
 import eCommerce from '../img/ecommerce.svg';
+import icoForm from '../img/getting-started/ico-form.svg';
+import icoSearch from '../img/getting-started/ico-search.svg';
+import icoNewsite from '../img/getting-started/ico-newsite.svg';
 
 export default function IndexPage() {
   return (
     <Layout>
       {/* Hero  */}
-      <div className="bg-gray-100">
-        <div className="max-w-screen-lg px-4 py-10 mx-auto sm:py-12 sm:px-6 md:py-16 lg:py-20 xl:py-28">
-          <div className="text-center">
+      <div className="flex flex-col md:flex-row mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="py-10 mb-15 md:w-3/6">
+          <div className="text-left px-0">
             <h2 className="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
-              Get Your Business Online and Back to Work &mdash; Fast
+              Get Your Business Online and Back to Work &mdash; <span className="relative inline-block">Fast<span className="absolute h-2 w-full block bottom--3 bg-orange-500"></span></span>
             </h2>
-            <p className="max-w-md mx-auto mt-3 text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-              Offline2on.com is a community-led, cross platform
-              initiative to support businesses in ramping up their e-commerce
-              efforts in the wake of COVID-19 by connecting merchants with the
-              resources, developers, platforms, and partners they need to take
-              action.
+            <p className="mt-5 text-base text-gray-500 sm:text-lg md:mt-8 md:text-xl">
+              Many e-commerce agencies worldwide have available capacity to help business owners like you get a website set up quickly, or optimize their current online operations, fulfillment, and shipping. There is hope and we’re here to help!
             </p>
-            <div className="max-w-md mx-auto mt-5 sm:flex sm:justify-center md:mt-8">
+            <div className="max-w-md mt-5 sm:flex md:mt-8">
               <div className="rounded-md shadow">
                 <a
                   href="#getting-started"
@@ -35,6 +34,35 @@ export default function IndexPage() {
             </div>
           </div>
         </div>
+        <img src={eCommerce} className="md:ml-24 md:w-3/6" alt="eCommerce icon" />
+      </div>
+        
+      {/* How It Works  */}
+      <div className="mt-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <h2 className="font-bold text-2xl mb-10 text-gray-900 md:text-4xl">How It Works</h2>
+      </div>
+      <div className="flex flex-col lg:flex-row lg:justify-between mx-auto max-w-7xl px-4 sm:px-6 lg:px-10">
+       <div className="hiw__item mb-8 flex flex-row items-start lg:w-1/3 lg:pr-10">
+         <img src={icoForm} className="max-w-sm mr-5" style={{width: 50 + "px", maxHeight: 50 + "px"}} />
+         <div>
+           <h3 className="text-xl font-bold text-gray-900 leading-tight md:text-2xl">Sign Up</h3>
+           <p>Tell us about your business and how we can help you.</p>
+         </div>
+       </div>
+       <div className="hiw__item mb-8 flex flex-row items-start lg:w-1/3 lg:px-5">
+         <img src={icoSearch} className="max-w-sm mr-5" style={{maxWidth: 50 + "px"}} />
+         <div>
+           <h3 className="text-xl font-bold text-gray-900 leading-tight md:text-2xl">Find a Match</h3>
+           <p>We’ll connect you with agencies who are the right fit based on your needs and location</p>
+         </div>
+       </div>
+       <div className="hiw__item mb-8 flex flex-row items-start lg:w-1/3 lg:pl-10">
+         <img src={icoNewsite} className="max-w-sm mr-5" style={{maxWidth: 50 + "px"}} />
+         <div>
+           <h3 className="text-xl font-bold text-gray-900 leading-tight md:text-2xl">Identify Solutions</h3>
+           <p>Get set up with your new or optimized website</p>
+         </div>
+       </div>
       </div>
 
       {/* Mission */}
