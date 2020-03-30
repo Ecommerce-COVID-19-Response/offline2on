@@ -81,7 +81,9 @@ export default function IndexPage() {
       <div className="flex flex-col lg:items-start lg:flex-row lg:justify-between mx-auto max-w-7xl px-4 sm:px-6 lg:px-10">
        <div className="hiw__item mb-20 flex flex-row justify-center lg:items-start w-full lg:w-1/3 lg:pr-10">
          <div>
-          <img src={responsive} className="mb-10" style={{maxHeight: 185 + "px"}} />
+          <div>
+            <img src={responsive} className="mb-10 mx-auto" style={{maxHeight: 185 + "px"}} />
+          </div>
           <h3 className="text-xl mb-1 font-bold text-gray-900 leading-tight md:text-2xl">The Online Now Package</h3>
           <p className="leading-tight mb-4 text-xs font-bold">For businesses that don’t currently have an online store, we will pair you with an e-commerce expert who will:</p>
           <ul className="list-disc list-outside">
@@ -102,7 +104,9 @@ export default function IndexPage() {
        </div>
        <div className="hiw__item mb-20 flex flex-row justify-center lg:items-start w-full lg:w-1/3 lg:px-5">
          <div>
-          <img src={growthAnalytics} className="mb-10" style={{maxHeight: 185 + "px"}} />
+          <div>
+            <img src={growthAnalytics} className="mb-10 mx-auto" style={{maxHeight: 185 + "px"}} />
+          </div>
           <h3 className="text-xl mb-1 font-bold text-gray-900 leading-tight md:text-2xl">The Store Audit Package</h3>
           <p className="leading-tight mb-4 text-xs font-bold">For businesses that have a website but need some support, we will pair you with an e-commerce expert who will:</p>
           <ul className="list-disc list-outside">
@@ -123,7 +127,9 @@ export default function IndexPage() {
        </div>
        <div className="hiw__item flex flex-row justify-center lg:items-start w-full items-start lg:w-1/3 lg:pl-10">
          <div>
-          <img src={mobileMarketing} className="mb-10" style={{maxHeight: 185 + "px"}}/>
+          <div>
+            <img src={mobileMarketing} className="mb-10 mx-auto" style={{maxHeight: 185 + "px"}}/>
+          </div>
           <h3 className="text-xl mb-1 font-bold text-gray-900 leading-tight md:text-2xl">The Marketing Intro Package</h3>
           <p className="leading-tight mb-4 text-xs font-bold">For businesses that have a website but need help with marketing, we will pair you with an e-commerce expert who will:</p>
           <ul className="list-disc list-outside">
