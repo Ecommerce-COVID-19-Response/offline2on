@@ -3,6 +3,53 @@ import Layout from '../components/Layout';
 import Button from '../components/Button';
 import Input from '../components/Input';
 
+const platform_options = [
+  { value: 'BigCommerce', label: 'BigCommerce'},
+  { value: 'Shopify', label: 'Shopify'},
+  { value: 'Magento', label: 'Magento'},
+  { value: 'I need help choosing a platform', label: 'I need help choosing a platform'},
+  { value: 'Shopware', label: 'Shopware'},
+  { value: 'Other', label: 'Other'}, 
+]
+
+const location_options = [
+  { value: 'Australia or New Zealand', label: 'Australia or New Zealand'}, 
+  { value: 'Canada', label: 'Canada'}, 
+  { value: 'Europe', label: 'Europe'}, 
+  { value: 'United Kingdom', label: 'United Kingdom'}, 
+  { value: 'United States', label: 'United States'},
+  { value: 'Other', label: 'Other'}, 
+]
+
+const expertise_options = [
+  { value: 'Website Design', label: 'Website Design'},
+  { value: 'Custom Development and Support', label: 'Custom Development and Support'},
+  { value: 'Shipping and Logistics', label: 'Shipping and Logistics'},
+  { value: 'Marketing and Advertising', label: 'Marketing and Advertising'},
+  { value: 'Fulfillment', label: 'Fulfillment'},
+  { value: 'Copywriting', label: 'Copywriting'},
+  { value: 'Branding', label: 'Branding'},
+  { value: 'Other', label: 'Other'},
+]
+
+const business_options = [
+  { value: 'Restaurant or Bar', label: 'Restaurant or Bar'},
+  { value: 'Retailer', label: 'Retailer'},
+  { value: 'Wholesaler or manufacturer', label: 'Wholesaler or manufacturer'},
+]
+
+const market_options = [
+  { value: 'Local', label: 'Local'},
+  { value: 'Domestic', label: 'Domestic'},
+  { value: 'International', label: 'International'},
+]
+  
+const financial_options = [
+  { value: 'I want to grow my business', label: 'I want to grow my business'},
+  { value: 'The revenue trend looks really bad, and I need to get ahead of this', label: 'The revenue trend looks really bad, and I need to get ahead of this'},
+  { value: 'My business will not survive the pandemic', label: 'My business will not survive the pandemic'},
+]
+
 export default function Merchants() {
   return (
     <Layout>
@@ -47,13 +94,35 @@ export default function Merchants() {
 
           <Input id="business-name" label="Business Name" />
 
-          <Input
-            id="vertical"
-            label="Business Description"
-            hint="Tell us more about what you sell."
+          <Input id="url" label="Existing Website" />
+
+          <Input 
+            id="location"  
+            label="Where are you located?"
+            inputType="multiselect"
+            options={location_options} 
+          />
+          <Input id="location-other" label="Other:" hint="If you work on another region, please specify"/>
+
+          <Input 
+            id="business_type"  
+            label="What type of business do you have?"
+            inputType="multiselect"
+            options={business_options} 
           />
 
-          <Input id="url" label="Existing Website" />
+          <Input
+            id="business_sells"
+            label="What do you sell?"
+            inputType="textarea"
+          />
+
+          <Input 
+            id="market"  
+            label="What markets do you serve?"
+            inputType="multiselect"
+            options={market_options} 
+          />
 
           <Input
             id="can-ship"
@@ -64,31 +133,30 @@ export default function Merchants() {
             <option value="yes">Yes</option>
           </Input>
 
-          <Input id="location" label="Where are you located?" />
-
-          <Input id="budget" label="What's your budget?" inputType="select">
-            <option value="$">$</option>
-            <option value="$$">$$</option>
-            <option value="$$$">$$$</option>
-            <option value="$$$$">$$$$</option>
-            <option value="probono">I need help or can't pay</option>
-          </Input>
-
-          <Input id="platform" label="Preferred Platform" inputType="select">
-            <option value="none">I don't know</option>
-            <option value="big_commerce">BigCommerce</option>
-            <option value="magento">Magento</option>
-            <option value="shopify">Shopify</option>
-            <option value="other">Other</option>
-          </Input>
-
-          <Input
-            id="help_needed"
-            label="What do you need help with?"
-            inputType="textarea"
+          <Input 
+            id="financial_situation"  
+            label="What is your current financial situation?"
+            inputType="multiselect"
+            options={financial_options} 
           />
 
-          <Input id="additional" label="Other Comment" inputType="textarea" />
+          <Input 
+            id="platforms" 
+            label="Preferred e-commerce platforms"
+            inputType="multiselect"
+            options={platform_options} 
+          />
+          <Input id="platforms-other" label="Other:" />
+ 
+
+          <Input 
+            id="help_needed" 
+            label="What do you need help with?"
+            inputType="multiselect"
+            options={expertise_options} 
+          />
+
+          <Input id="additional" label="Other Comments" inputType="textarea" />
 
           <div className="pt-5 mt-6 border-t border-gray-200 sm:mt-5">
             <div className="flex justify-end">

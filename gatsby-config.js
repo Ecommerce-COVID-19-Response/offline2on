@@ -101,10 +101,10 @@ module.exports = {
               Merchant_Vertical: '',
               Merchant_Ships: false,
               Merchant_Budget: '',
-              Location: '',
+              Location: [],
               Notes: '',
-              Agency_Expertise: '',
-              Platforms: '',
+              Agency_Expertise: [],
+              Platforms: [],
               Type: '', // Agency | Merchant
               Created_At: '',
               Updated_At: '',
