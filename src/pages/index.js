@@ -8,6 +8,9 @@ import eCommerce from '../img/ecommerce.svg';
 import icoForm from '../img/getting-started/ico-form.svg';
 import icoSearch from '../img/getting-started/ico-search.svg';
 import icoNewsite from '../img/getting-started/ico-newsite.svg';
+import responsive from '../img/responsive.svg';
+import growthAnalytics from '../img/growth-analytics.svg';
+import mobileMarketing from '../img/mobile-marketing.svg';
 
 export default function IndexPage() {
   return (
@@ -45,7 +48,7 @@ export default function IndexPage() {
        <div className="hiw__item mb-8 flex flex-row items-start lg:w-1/3 lg:pr-10">
          <img src={icoForm} className="max-w-sm mr-5" style={{width: 50 + "px", maxHeight: 50 + "px"}} />
          <div>
-           <h3 className="text-xl font-bold text-gray-900 leading-tight md:text-2xl">Sign Up</h3>
+           <h3 className="text-xl font-bold text-gray-900 leading-tight md:text-2xl">Contact Us</h3>
            <p>Tell us about your business and how we can help you.</p>
          </div>
        </div>
@@ -64,59 +67,85 @@ export default function IndexPage() {
          </div>
        </div>
       </div>
-
-      {/* Mission */}
-      <div className="max-w-screen-lg px-4 mx-auto my-32 text-lg">
-        <div className="relative text-center">
-          <h2 className="inline-block text-5xl font-bold text-gray-900">
-            Missions
-          </h2>
-          <div
-            className="absolute bottom-0 w-12 h-1 bg-orange-500 left-1/2"
-            style={{ transform: 'translate3D(-50%, 10px, 0)' }}
-          />
-        </div>
-
-        <div className="flex flex-col items-center mt-24 md:flex-row-reverse">
-          <img src={socialDistancing} className="md:ml-24 w-96" alt="social distancing icon" />
-          <div className="px-0 mt-12 md:mt-0 sm:px-12 md:px-0">
-            <p className="mb-4">
-              The unfolding global coronavirus (COVID-19) pandemic is reshaping life and business around the world.
-            </p>
-            <p>
-              Small- and mid-sized companies are bearing the brunt of the worldwide containment measures. The fear of
-              losing traffic and revenue, making payroll, and of keeping the lights on is apparent.
-            </p>
-          </div>
-        </div>
-
-        <div className="flex flex-col items-center mt-24 md:flex-row">
-          <img src={global} className="md:mr-24 w-96" alt="global trade icon" />
-          <div className="px-0 mt-12 text-right md:mt-0 sm:px-12 md:px-0">
-            <p className="mb-4">
-              Unprecedented times call for unprecedented measures.
-            </p>
-            <p className="mb-4">
-             We are a global commerce community initiative &mdash; spanning organizations with expertise across all
-              aspects of commerce &mdash; all focused on helping companies navigate these difficult times.
-            </p>
-			<p>
-			  Our goal is to provide support for merchants to keep their business running using e-commerce platforms
-              and expert advice. Merchants will be able to access designers, solution integrators, developers, and more.
-			</p>
-          </div>
-        </div>
-
-        <div className="flex flex-col items-center mt-24 md:flex-row-reverse">
-          <img src={eCommerce} className="md:ml-24 w-96" alt="eCommerce icon" />
-          <div className="px-0 mt-12 md:mt-0 sm:px-12 md:px-0">
-           Whether you’re looking for a simple guide to get you started selling online as quickly as possible, or you
-            require resources to optimize your site for e-commerce sales, fulfillment, and shipping, you will find
-            what you need.
-          </div>
-        </div>
+    {/* Offering  */}
+    <div className="bg-gray-100 py-20 mt-10">
+      <div className="relative text-center mb-20">
+        <h2 className="inline-block text-4xl font-bold text-gray-900">
+          What We're Offering
+        </h2>
+        <div
+          className="absolute bottom-0 w-12 h-1 bg-orange-500 left-1/2"
+          style={{ transform: 'translate3D(-50%, 10px, 0)' }}
+        />
       </div>
-      <GettingStarted />
+      <div className="flex flex-col lg:items-start lg:flex-row lg:justify-between mx-auto max-w-7xl px-4 sm:px-6 lg:px-10">
+       <div className="hiw__item mb-20 flex flex-row justify-center lg:items-start w-full lg:w-1/3 lg:pr-10">
+         <div>
+          <img src={responsive} className="mb-10" style={{maxHeight: 185 + "px"}} />
+          <h3 className="text-xl mb-1 font-bold text-gray-900 leading-tight md:text-2xl">The Online Now Package</h3>
+          <p className="leading-tight mb-4 text-xs font-bold">For businesses that don’t currently have an online store, we will pair you with an e-commerce expert who will:</p>
+          <ul className="list-disc list-outside">
+            <li className="mb-2">Advise you on the best platform for your needs</li>
+            <li className="mb-2">Help get your products online</li>
+            <li className="mb-2">Assist you in getting your new website live</li>
+          </ul>
+          <div className="mt-5 pt-2 border-t border-gray-900 flex flex-row justify-between items-end">
+            <div>
+              <p className="leading-none">Cost:</p>
+              <p className="text-2xl font-bold leading-none">FREE</p>
+            </div>
+            <div>
+              <a className="text-lg underline font-bold text-gray-900" href="/resources/packages">More Information</a>
+            </div>
+          </div>
+        </div>
+       </div>
+       <div className="hiw__item mb-20 flex flex-row justify-center lg:items-start w-full lg:w-1/3 lg:px-5">
+         <div>
+          <img src={growthAnalytics} className="mb-10" style={{maxHeight: 185 + "px"}} />
+          <h3 className="text-xl mb-1 font-bold text-gray-900 leading-tight md:text-2xl">The Store Audit Package</h3>
+          <p className="leading-tight mb-4 text-xs font-bold">For businesses that have a website but need some support, we will pair you with an e-commerce expert who will:</p>
+          <ul className="list-disc list-outside">
+            <li className="mb-2">Review your customer experience for possible improvements</li>
+            <li className="mb-2">Test your website speed and help you increase performance</li>
+            <li className="mb-2">Help set up optimized promotions and gift card sales</li>
+          </ul>
+          <div className="mt-5 pt-2 border-t border-gray-900 flex flex-row justify-between items-end">
+            <div>
+              <p className="leading-none">Cost:</p>
+              <p className="text-2xl font-bold leading-none">FREE</p>
+            </div>
+            <div>
+              <a className="text-lg underline font-bold text-gray-900" href="/resources/packages">More Information</a>
+            </div>
+          </div>
+        </div>
+       </div>
+       <div className="hiw__item flex flex-row justify-center lg:items-start w-full items-start lg:w-1/3 lg:pl-10">
+         <div>
+          <img src={mobileMarketing} className="mb-10" style={{maxHeight: 185 + "px"}}/>
+          <h3 className="text-xl mb-1 font-bold text-gray-900 leading-tight md:text-2xl">The Marketing Intro Package</h3>
+          <p className="leading-tight mb-4 text-xs font-bold">For businesses that have a website but need help with marketing, we will pair you with an e-commerce expert who will:</p>
+          <ul className="list-disc list-outside">
+            <li className="mb-2">Review social media integrations</li>
+            <li className="mb-2">Go through your choice of organic traffic support or paid traffic consultation</li>
+            <li className="mb-2">Make sure your website is optimized for search engines (SEO)</li>
+            <li className="mb-2">Discuss opportunities for paid advertising</li>
+          </ul>
+          <div className="mt-5 pt-2 border-t border-gray-900 flex flex-row justify-between items-end">
+            <div>
+              <p className="leading-none">Cost:</p>
+              <p className="text-2xl font-bold leading-none">FREE</p>
+            </div>
+            <div>
+              <a className="text-lg underline font-bold text-gray-900" href="/resources/packages">More Information</a>
+            </div>
+          </div>
+        </div>
+       </div>
+      </div>
+    </div>
+    <GettingStarted />
     </Layout>
   );
 }
