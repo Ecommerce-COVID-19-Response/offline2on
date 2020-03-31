@@ -27,3 +27,18 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Subtitle', name: 'subtitle', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'press'
+    label: 'Press Releases'
+    folder: 'src/pages/press'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'press',
+        }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Subtitle', name: 'subtitle', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
