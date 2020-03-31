@@ -247,7 +247,7 @@ export default function IndexPage() {
                 <div>
                   <Link
                     className="text-lg font-bold text-gray-900 underline"
-                    href="/resources/packages"
+                    to="/resources/packages"
                   >
                     More Information
                   </Link>
