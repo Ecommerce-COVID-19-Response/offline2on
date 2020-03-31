@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { PressPageTemplate } from '../../templates/press-page'
+import { PressPageTemplate } from '../../templates/press'
 
 const PressPagePreview = ({ entry, widgetFor }) => (
   <PressPageTemplate
