@@ -52,9 +52,9 @@ For these platforms, we’ve highlighted the following features:
 * **Additional notes:** Offers an integration with WordPress (WordPress site hosting required)
 * [Contact for more information](https://www.bigcommerce.com/essentials/request-a-demo/)
 
-#### Magento Open Source
+#### Magento
 
-* **Price:** Starting cost varies based on hosting (no licensing fee)
+* **Price:** Starting cost varies based on hosting (license fee based on plan)
 * **Special offer:** Magento currently has an offer for their paid cloud solution, Magento Commerce, that includes [3 months free as part of a new contract](https://magento.com/blog/magento-news/adobe-announces-offerings-help-small-mid-sized-companies).
 * **Features:** Small to large catalog, coupons/discounts, POS integrations ([see all features](https://magento.com/compare-open-source-and-magento-commerce))
 * **Additional notes:** Developer required for initial build and ongoing maintenance
