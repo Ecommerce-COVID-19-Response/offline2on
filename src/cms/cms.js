@@ -7,6 +7,7 @@ import CMS from 'netlify-cms-app';
 // import ProductPagePreview from './preview-templates/ProductPagePreview';
 // import IndexPagePreview from './preview-templates/IndexPagePreview';
 import ResourcePreview from './preview-templates/ResourcePreview';
+import PressPagePreview from './preview-templates/PressPagePreview';
 
 // CMS.registerMediaLibrary(uploadcare);
 // CMS.registerMediaLibrary(cloudinary);
@@ -16,3 +17,4 @@ import ResourcePreview from './preview-templates/ResourcePreview';
 // CMS.registerPreviewTemplate('products', ProductPagePreview);
 // CMS.registerPreviewTemplate('blog', BlogPostPreview);
 CMS.registerPreviewTemplate('resources', ResourcePreview);
+CMS.registerPreviewTemplate('press', PressPagePreview);
