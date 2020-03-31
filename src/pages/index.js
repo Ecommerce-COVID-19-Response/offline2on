@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import GettingStarted from '../components/HomePage/GettingStarted';
+import { Link } from 'gatsby';
 
 // import socialDistancing from '../img/social-distancing.svg';
 // import global from '../img/global.svg';
@@ -154,12 +155,12 @@ export default function IndexPage() {
                   <p className="text-2xl font-bold leading-none">FREE</p>
                 </div>
                 <div>
-                  <a
+                  <Link
                     className="text-lg font-bold text-gray-900 underline"
-                    href="/resources/packages"
+                    to="/resources/packages"
                   >
                     More Information
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -198,12 +199,12 @@ export default function IndexPage() {
                   <p className="text-2xl font-bold leading-none">FREE</p>
                 </div>
                 <div>
-                  <a
+                  <Link
                     className="text-lg font-bold text-gray-900 underline"
-                    href="/resources/packages"
+                    to="/resources/packages"
                   >
                     More Information
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -244,12 +245,12 @@ export default function IndexPage() {
                   <p className="text-2xl font-bold leading-none">FREE</p>
                 </div>
                 <div>
-                  <a
+                  <Link
                     className="text-lg font-bold text-gray-900 underline"
                     href="/resources/packages"
                   >
                     More Information
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
