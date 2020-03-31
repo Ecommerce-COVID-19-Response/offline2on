@@ -39,7 +39,7 @@ export default function Agencies() {
       <div className="py-16 bg-gray-100 sm:py-20 md:py-28">
         <div className="relative text-center">
           <h1 className="inline-block text-4xl font-semibold text-gray-900 md:text-5xl">
-            I Want To Offer Help
+            I Want to Offer Help
           </h1>
           <div
             className="absolute bottom-0 w-12 h-1 bg-orange-500 left-1/2"
@@ -94,29 +94,29 @@ export default function Agencies() {
 
           <Input id="phone" label="Phone" type="tel" required />
 
-          <Input id="business-name" label="Business Name" />
+          <Input id="business-name" label="Business name" />
 
           <Input
-            label="Business Expertise"
+            label="Business expertise"
             id="expertise"
             inputType="multiselect"
             options={expertise_options}
           />
           <Input
             id="expertise-other"
-            label="Other:"
+            label="Other"
             hint="If you can offer other expertise, please specify"
           />
 
           <Input
             id="platforms"
-            label="Which platforms you work with?"
+            label="Which platforms do you work with?"
             inputType="multiselect"
             options={platform_options}
           />
           <Input
             id="platforms-other"
-            label="Other:"
+            label="Other"
             hint="If you worth with other platforms, please specify"
           />
 

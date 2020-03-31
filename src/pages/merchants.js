@@ -7,18 +7,18 @@ const platform_options = [
   { value: 'BigCommerce', label: 'BigCommerce'},
   { value: 'Shopify', label: 'Shopify'},
   { value: 'Magento', label: 'Magento'},
-  { value: 'I need help choosing a platform', label: 'I need help choosing a platform'},
   { value: 'Shopware', label: 'Shopware'},
-  { value: 'Other', label: 'Other'}, 
+  { value: 'Other', label: 'Other'},
+  { value: 'I need help choosing a platform', label: 'I need help choosing a platform'},
 ]
 
 const location_options = [
-  { value: 'Australia or New Zealand', label: 'Australia or New Zealand'}, 
-  { value: 'Canada', label: 'Canada'}, 
-  { value: 'Europe', label: 'Europe'}, 
-  { value: 'United Kingdom', label: 'United Kingdom'}, 
+  { value: 'Australia or New Zealand', label: 'Australia or New Zealand'},
+  { value: 'Canada', label: 'Canada'},
+  { value: 'Europe', label: 'Europe'},
+  { value: 'United Kingdom', label: 'United Kingdom'},
   { value: 'United States', label: 'United States'},
-  { value: 'Other', label: 'Other'}, 
+  { value: 'Other', label: 'Other'},
 ]
 
 const expertise_options = [
@@ -43,7 +43,7 @@ const market_options = [
   { value: 'Domestic', label: 'Domestic'},
   { value: 'International', label: 'International'},
 ]
-  
+
 const financial_options = [
   { value: 'I want to grow my business', label: 'I want to grow my business'},
   { value: 'The revenue trend looks really bad, and I need to get ahead of this', label: 'The revenue trend looks really bad, and I need to get ahead of this'},
@@ -92,23 +92,23 @@ export default function Merchants() {
 
           <Input id="phone" label="Phone" type="tel" required />
 
-          <Input id="business-name" label="Business Name" />
+          <Input id="business-name" label="Business name" />
 
-          <Input id="url" label="Existing Website" />
+          <Input id="url" label="Existing website" />
 
-          <Input 
-            id="location"  
+          <Input
+            id="location"
             label="Where are you located?"
             inputType="multiselect"
-            options={location_options} 
+            options={location_options}
           />
-          <Input id="location-other" label="Other:" hint="If you work on another region, please specify"/>
+          <Input id="location-other" label="Other" hint="If you work on another region, please specify"/>
 
-          <Input 
-            id="business_type"  
+          <Input
+            id="business_type"
             label="What type of business do you have?"
             inputType="multiselect"
-            options={business_options} 
+            options={business_options}
           />
 
           <Input
@@ -117,11 +117,11 @@ export default function Merchants() {
             inputType="textarea"
           />
 
-          <Input 
-            id="market"  
+          <Input
+            id="market"
             label="What markets do you serve?"
             inputType="multiselect"
-            options={market_options} 
+            options={market_options}
           />
 
           <Input
@@ -133,30 +133,30 @@ export default function Merchants() {
             <option value="yes">Yes</option>
           </Input>
 
-          <Input 
-            id="financial_situation"  
+          <Input
+            id="financial_situation"
             label="What is your current financial situation?"
             inputType="multiselect"
-            options={financial_options} 
+            options={financial_options}
           />
 
-          <Input 
-            id="platforms" 
-            label="Preferred e-commerce platforms"
+          <Input
+            id="platforms"
+            label="Preferred e-commerce platform"
             inputType="multiselect"
-            options={platform_options} 
+            options={platform_options}
           />
           <Input id="platforms-other" label="Other:" />
- 
 
-          <Input 
-            id="help_needed" 
+
+          <Input
+            id="help_needed"
             label="What do you need help with?"
             inputType="multiselect"
-            options={expertise_options} 
+            options={expertise_options}
           />
 
-          <Input id="additional" label="Other Comments" inputType="textarea" />
+          <Input id="additional" label="Anything else you want to tell us?" inputType="textarea" />
 
           <div className="pt-5 mt-6 border-t border-gray-200 sm:mt-5">
             <div className="flex justify-end">
