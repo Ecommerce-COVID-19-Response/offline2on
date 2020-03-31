@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { PressPageTemplate } from '../../templates/press-page'
 
 const PressPagePreview = ({ entry, widgetFor }) => (
-  <AboutPageTemplate
+  <PressPageTemplate
     title={entry.getIn(['data', 'title'])}
     content={widgetFor('body')}
   />
