@@ -54,7 +54,7 @@ export default function GettingStarted() {
 
   return (
     <>
-      <section id="getting-started" className="bg-gray-100">
+      <section id="getting-started">
         <div className="max-w-screen-md px-4 py-20 mx-auto text-lg md:py-24">
           <div className="border-b-2 border-gray-200">
             <div className="relative text-center">
