@@ -3,11 +3,11 @@ templateKey: resource
 path: /about
 title: About Us
 ---
-Offline2On.com is a community-led, cross-platform initiative designed to help businesses ramp up their e-commerce efforts 
+Offline2On.com is a community-led, cross-platform initiative designed to help businesses ramp up their e-commerce efforts
 in the wake of COVID-19 by connecting merchants with the resources, developers, platforms, and partners they need to take action.
 
 ## Who Are We?
-We are made up of over 900+ technologists, designers, writers, marketers, PR professionals, as well as industry leaders from 
+We are made up of over 1,100 technologists, designers, writers, marketers, PR professionals, as well as industry leaders from
 all over the world in the e-commerce space, working with platforms such as Shopify, BigCommerce and Magento, and more.
 
 ## Our Purpose
