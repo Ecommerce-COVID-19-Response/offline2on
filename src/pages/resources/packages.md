@@ -36,7 +36,7 @@ If you already have a website and already have an online store but aren’t sure
 * Basic SEO review, recommendations, and examples
 * Social media check
 
-## The Marketing Intro Package
+## The *Marketing Intro* Package
 
 If your business is already online but you need to reach a bigger customer base, we’ve got you covered. We’ll pair you with an e-commerce expert for a FREE 20-minute consultation where you can focus on either organic traffic or paid traffic.
 
@@ -56,19 +56,11 @@ Paid traffic topics include:
 Looking for additional resources to make the most out of your online store? Check out these resources from BigCommerce and Shopify.
 
 * [BigCommerce Blog](https://www.bigcommerce.com/blog/)
-
 * [Shopify Blog](https://www.shopify.com/blog)
-
-*  [BigCommerce Support Center](https://support.bigcommerce.com/s/)
-
-*  [Shopify Help Docs](https://help.shopify.com/en)
-
-*  [BigCommerce Videos](https://support.bigcommerce.com/s/videos)
-
-*  [Shopify Academy](https://academy.shopify.com/) (Shopify account required)
-
-*  [BigCommerce Guides](https://support.bigcommerce.com/s/guides)
-
-*  [BigCommerce Webinars](https://www.bigcommerce.com/resources/webinars/)
-
-*  [Shopify Webinars](https://help.shopify.com/en/webinars)
+* [BigCommerce Support Center](https://support.bigcommerce.com/s/)
+* [Shopify Help Docs](https://help.shopify.com/en)
+* [BigCommerce Videos](https://support.bigcommerce.com/s/videos)
+* [Shopify Academy](https://academy.shopify.com/) (Shopify account required)
+* [BigCommerce Guides](https://support.bigcommerce.com/s/guides)
+* [BigCommerce Webinars](https://www.bigcommerce.com/resources/webinars/)
+* [Shopify Webinars](https://help.shopify.com/en/webinars)
