@@ -11,7 +11,7 @@ Contact:[press@offline2on.com](mailto:press@offline2on.com)
 
 
 
-***AUSTIN, TX -- March 30, 2020 --*** Today, nearly 1,100 e-commerce professionals from around the world came together to launch Offline2On.com, a community-led initiative to help small- and mid-sized businesses (SMBs) get online fast and optimize online sales in the face of the growing coronavirus pandemic. Spanning experts across all aspects of commerce and leading e-commerce platforms, the initiative connects businesses with the resources, developers, platforms, and partners they need to take immediate action.
+***AUSTIN, TX -- April 1st, 2020 --*** Today, nearly 1,100 e-commerce professionals from around the world came together to launch Offline2On.com, a community-led initiative to help small- and mid-sized businesses (SMBs) get online fast and optimize online sales in the face of the growing coronavirus pandemic. Spanning experts across all aspects of commerce and leading e-commerce platforms, the initiative connects businesses with the resources, developers, platforms, and partners they need to take immediate action.
 
 Small- and mid-sized companies are bearing the brunt of the worldwide containment measures, with lost foot traffic, plummeting demand and revenue, and growing fears of making payroll and of keeping the lights on. As most SMBs don’t have full time IT staff, there is an immediate need to connect these brick-and-mortar businesses with expertise to get them online fast.
 
