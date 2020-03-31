@@ -20,7 +20,7 @@ export default function IndexPage() {
       <div className="flex flex-col px-4 mx-auto md:flex-row max-w-7xl sm:px-6 lg:px-8">
         <div className="py-10 mb-15 md:w-3/6">
           <div className="px-0 text-left">
-            <h2 className="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
+            <h2 className="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-5xl">
               Get Your Business Online and Back to Work &mdash;{' '}
               <span className="relative inline-block">
                 Fast
