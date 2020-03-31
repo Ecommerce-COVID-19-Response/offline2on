@@ -125,7 +125,7 @@ For more questions around US sales tax collection, reporting and filing, search 
 If you’re feeling confused and still need some help with this, just [fill out this form](/merchants) and we will connect you with someone who can help!
 
 ## Choose a Platform
-See [E-commerce Platforms](resources/ecommerce-platforms) for more information on choosing a platform.
+See [E-commerce Platforms](/resources/ecommerce-platforms) for more information on choosing a platform.
 
 ## Getting More Help
 
