@@ -6,6 +6,8 @@
 
 @import "~bulma/sass/utilities/initial-variables"
 
+@import 'node_modules/react-modal-video/scss/modal-video.scss';
+
 // Config vars
 // Kaldi logo brand color: #FD461E
 $kaldi-red: #D64000
@@ -165,3 +167,50 @@ $menu-label-color: $white-ter
     text-align: center;
     max-width: 70%;
     margin: 0 0 1em;
+
+// video modal
+.modal
+  position: fixed
+  width: 100%
+  height: 100%
+  top: 0
+  left: 0
+  display: block
+  
+
+.modal__overlay
+  position: absolute
+  top: 0
+  left: 0
+  background: rgba(0,0,0,.9)
+  width: 100%
+  height: 100%
+  
+.modal__close
+  position: absolute
+  z-index: 9999
+  color: white
+  top: 3rem
+  right: 2rem
+  font-size: 2rem
+  line-height: 0
+    :hover
+      color: white
+      opacity: .9
+
+.video-wrapper
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  top: 50%;
+  transform: translateY(-50%)
+  z-index: 9999
+  margin: 0 auto
+  width: 90%
+  max-width: 1024px
+  iframe
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
