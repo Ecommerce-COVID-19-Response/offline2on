@@ -33,6 +33,13 @@ const location_options = [
   { value: 'United States', label: 'United States' }
 ];
 
+const package_options = [
+  { value: 'Online Now', label: 'The Online Now Package' },
+  { value: 'Store Audit', label: 'The Store Audit Package' },
+  { value: 'Marketing Intro', label: 'The Marketing Intro Package' },
+];
+
+
 export default function Agencies() {
   return (
     <Layout>
@@ -119,6 +126,14 @@ export default function Agencies() {
             label="Other:"
             hint="If you worth with other platforms, please specify"
           />
+
+          <Input
+            label="Which Packages can you support?"
+            id="supported_packages"
+            inputType="multiselect"
+            options={package_options}
+          />
+
 
           <Input
             id="location"
