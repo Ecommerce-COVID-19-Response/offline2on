@@ -1,8 +1,8 @@
 ---
 templateKey: press
 title: >-
-  Global E-commerce Community Unites To Support Small & Mid-Sized Businesses Hit
-  by Coronavirus
+  Global E-commerce Community Unites To Support Small and Mid-Sized Businesses
+  Impacted by Coronavirus
 subtitle: >-
   Offline2On.com Connects Offline Businesses with E-commerce Experts to Get
   Online Fast
