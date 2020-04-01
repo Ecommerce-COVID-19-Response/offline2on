@@ -1,11 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Layout from '../components/Layout';
 import GettingStarted from '../components/HomePage/GettingStarted';
 import { Link } from 'gatsby';
+import ModalVideo from 'react-modal-video'
 
 // import socialDistancing from '../img/social-distancing.svg';
 // import global from '../img/global.svg';
 import eCommerce from '../img/ecommerce.svg';
+import homeVideo from '../img/home-video.jpg';
 import icoForm from '../img/getting-started/ico-form.svg';
 import icoSearch from '../img/getting-started/ico-search.svg';
 import icoNewsite from '../img/getting-started/ico-newsite.svg';
@@ -14,10 +16,25 @@ import growthAnalytics from '../img/growth-analytics.svg';
 import mobileMarketing from '../img/mobile-marketing.svg';
 
 export default function IndexPage() {
+  const [isOpen, setIsOpen] = useState(false)
+
+  function openModal () {
+    setIsOpen(true)
+  }
+  
+  function closeModal() {
+    setIsOpen(false)
+  }
+  
   return (
     <Layout>
+    <style>
+    </style>
+    <div>
+      <ModalVideo channel='vimeo' isOpen={isOpen} videoId='402705931' onClose={closeModal} />
+    </div>
       {/* Hero  */}
-      <div className="flex flex-col px-4 mx-auto md:flex-row max-w-7xl sm:px-6 lg:px-8">
+      <div className="flex flex-col px-4 mx-auto md:flex-row max-w-7xl sm:px-6 lg:px-8 items-center">
         <div className="py-10 mb-15 md:w-3/6">
           <div className="px-0 text-left">
             <h2 className="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-5xl">
@@ -45,11 +62,11 @@ export default function IndexPage() {
             </div>
           </div>
         </div>
-        <img
-          src={eCommerce}
-          className="md:ml-24 md:w-3/6"
-          alt="eCommerce icon"
-        />
+        <div className="md:ml-24 md:w-3/6">
+          <button onClick={openModal}>
+              <img src={homeVideo} alt="eCommerce icon" />
+          </button>    
+        </div>
       </div>
 
       {/* How It Works  */}
