@@ -97,7 +97,7 @@ export default function IndexPage() {
             <img
               src={icoSearch}
               className="max-w-sm mr-5"
-              style={{ maxWidth: 50 + 'px' }}
+              style={{ width: 50 + 'px', maxHeight: 50 + 'px' }}
               alt="search icon"
             />
           </div>
@@ -116,7 +116,7 @@ export default function IndexPage() {
             <img
               src={icoNewsite}
               className="max-w-sm mr-5"
-              style={{ maxWidth: 50 + 'px' }}
+              style={{ width: 50 + 'px', maxHeight: 50 + 'px' }}
               alt="new site icon"
             />
           </div>
