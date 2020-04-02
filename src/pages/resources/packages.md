@@ -19,9 +19,9 @@ Are you new to e-commerce? Complete this form telling us a little bit more about
 
 * Choosing a website or store domain
 * Setting up business email accounts
-* Selecting a store design theme
+* Selecting a store design theme and adding a logo
 * Setting up a few products for sale
-* Enabling gift cards
+* Enabling gift cards or setting up a promotion
 * Setting up shipping and sales Tax
 * Selecting and connecting to a payment gateway
 * Placing a test order
@@ -30,9 +30,9 @@ Are you new to e-commerce? Complete this form telling us a little bit more about
 
 If you already have a website and already have an online store but aren’t sure what to do next, the Store Audit will be a great fit for you. We’ll pair you with an e-commerce expert who will help you find areas to improve in order to DO MORE ONLINE! Plan includes:
 
-* Setting up gift card sales
+* Setting up gift card sales or setting up a promotion
 * Testing your website speed
-* Auditing the apps on your site for proper connection and function
+* Auditing the apps/extensions on your site for proper connection and function
 * Basic SEO review, recommendations, and examples
 * Social media check
 
@@ -53,14 +53,25 @@ Paid traffic topics include:
 * Google, Facebook or Instagram Ad account setup
 * First ad creation!
 
-Looking for additional resources to make the most out of your online store? Check out these resources from BigCommerce and Shopify.
+## Additional Resources
+Looking for additional resources to make the most out of your online store? Check out these resources from BigCommerce, Shopify, and Magento.
 
+### Blogs
 * [BigCommerce Blog](https://www.bigcommerce.com/blog/)
 * [Shopify Blog](https://www.shopify.com/blog)
+* [Magento Blog](https://magento.com/blog)
+
+### User Guides
 * [BigCommerce Support Center](https://support.bigcommerce.com/s/)
 * [Shopify Help Docs](https://help.shopify.com/en)
+* [Magento User Guide](https://docs.magento.com/m2/ce/user_guide/)
+
+### Learning Resources
 * [BigCommerce Videos](https://support.bigcommerce.com/s/videos)
 * [Shopify Academy](https://academy.shopify.com/) (Shopify account required)
 * [BigCommerce Guides](https://support.bigcommerce.com/s/guides)
 * [BigCommerce Webinars](https://www.bigcommerce.com/resources/webinars/)
 * [Shopify Webinars](https://help.shopify.com/en/webinars)
+* [BigCommerce Offline to Online](https://www.bigcommerce.com/dm/offline-to-online/)
+* [Shopify Virtual Meetups](https://meetups.shopify.com/)
+* [Magento Express Packages](https://magento.com/solutions/small-business/express-packages)
