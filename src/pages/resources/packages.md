@@ -9,13 +9,13 @@ subtitle: >-
 
 Over 1,000 volunteers have partnered with the biggest names in e-commerce to bring you solutions that will get you ONLINE as soon as possible at minimal to no cost. While we have packages at greatly reduced prices, we want to recommend these free options to retailers, merchants, e-commerce newcomers and store owners looking to improve their sales.
 
-We will pair you with an expert to help you make the most of your current online store or set you up with a FREE BigCommerce or Shopify account for 90 days for new customers.
+We will pair you with an expert to help you make the most of your current online store or set you up with a FREE BigCommerce or Shopify account for 90 days for new customers. We can also assist you with getting 90 days free as part of a new contract with Magento Commerce with cloud hosting.
 
 Please select one of the following package options based on your business needs:
 
 ## The *Online Now* Package
 
-Are you new to e-commerce? Complete this form telling us a little bit more about you and your business. We'll pair you with an e-commerce expert who will walk you through the basics of setting up an account and help you get your products online. Plan includes:
+Are you new to e-commerce? Complete this form telling us a little bit more about you and your business. We will you with an e-commerce expert who will walk you through the basics of setting up an account and help you get your products online. Plan includes:
 
 * Choosing a website or store domain
 * Setting up business email accounts
@@ -28,7 +28,7 @@ Are you new to e-commerce? Complete this form telling us a little bit more about
 
 ## The *Store Audit* Package
 
-If you already have a website and already have an online store but aren’t sure what to do next, the Store Audit will be a great fit for you. We’ll pair you with an e-commerce expert who will help you find areas to improve in order to DO MORE ONLINE! Plan includes:
+If you already have a website and already have an online store but aren’t sure what to do next, the Store Audit will be a great fit for you. We will pair you with an e-commerce expert who will help you find areas to improve in order to DO MORE ONLINE! Plan includes:
 
 * Setting up gift card sales or setting up a promotion
 * Testing your website speed
@@ -38,7 +38,7 @@ If you already have a website and already have an online store but aren’t sure
 
 ## The *Marketing Intro* Package
 
-If your business is already online but you need to reach a bigger customer base, we’ve got you covered. We’ll pair you with an e-commerce expert for a FREE 20-minute consultation where you can focus on either organic traffic or paid traffic.
+If your business is already online but you need to reach a bigger customer base, we’ve got you covered. We will pair you with an e-commerce expert for a FREE 20-minute consultation where you can focus on either organic traffic or paid traffic.
 
 Organic traffic topics include:
 
