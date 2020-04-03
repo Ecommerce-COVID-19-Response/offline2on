@@ -1,5 +1,7 @@
 import React from 'react';
-import Select from 'react-select';
+import Select from 'react-select'
+import PhoneInput from 'react-phone-input-2';
+import 'react-phone-input-2/lib/style.css';
 
 export default function Input({
   id,
@@ -53,6 +55,21 @@ export default function Input({
           isMulti
           className="block w-full transition duration-150 ease-in-out  sm:text-sm sm:leading-5"
           options={options} /> 
+        ) : inputType === 'phone' ? (
+          <PhoneInput
+          name={id}
+          country='us'
+          regions={['america', 'europe', 'asia']}
+          containerClass="react-tel-input mt-1 sm:mt-0 sm:col-span-2"
+          inputClass="block w-full transition duration-150 ease-in-out  sm:text-sm sm:leading-5"
+          options={options} 
+          inputProps={{
+            name: id,
+            id: id,
+            required: true,
+            autoFocus: true
+          }}
+          /> 
         ) : null}
 
         {hint && <p className="mt-2 text-sm text-gray-500">{hint}</p>}
