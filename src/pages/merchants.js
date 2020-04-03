@@ -90,7 +90,7 @@ export default function Merchants() {
 
           <Input id="email" label="Email" type="email" required />
 
-          <Input id="phone" label="Phone" type="tel" required />
+          <Input id="phone" label="Phone" type="tel" inputType="phone" required />
 
           <Input id="business-name" label="Business Name" />
 
