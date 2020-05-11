@@ -12,10 +12,6 @@ Offline2On started as a community of nearly 1,400 e-commerce experts who wanted 
 
 Small and medium businesses form the backbone of the global economy. Some are experiencing pain, and some have already shut down. By pulling together now, we hope to help as many businesses as possible survive these uniquely difficult circumstances. We also hope to build and maintain connections between business owners and service providers to help everyone come out stronger on the other side.  
 
-### How are you allocating agencies to assist business owners?
-
-Agencies who agree to offer the services will be vetted based on their areas of expertise and their location with respect to the business owner.
-
 ### I’m an agency, how can I help?
 
 We originally had a form to complete to be added to our directory and match agencies with businesses. Now that O2O has converted into a resource center, we are no longer accepting agency support. But thank you for thinking of us and those merchants in need.

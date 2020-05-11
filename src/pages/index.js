@@ -38,9 +38,9 @@ export default function IndexPage() {
         <div className="py-10 mb-15 md:w-3/6">
           <div className="px-0 text-left">
             <h2 className="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-5xl">
-              Get Your Business Online and Back to Work &mdash;{' '}
-              <span className="relative inline-block">
-                Fast
+            Get Your Business Onlin and Back to Work with Our  
+              <span className="relative inline-block pl-3">
+                 Resources
                 <span className="absolute block w-full h-2 bg-orange-500 bottom--3"></span>
               </span>
             </h2>
