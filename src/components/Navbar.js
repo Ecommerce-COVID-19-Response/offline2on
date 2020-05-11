@@ -85,20 +85,6 @@ export default function Navbar() {
               >
                 FAQ
               </NavLink>
-              <NavLink
-                to="/merchants"
-                isActive={location.pathname === '/merchants'}
-                className="ml-8"
-              >
-                For Businesses 
-              </NavLink>
-              <NavLink
-                to="/agencies"
-                isActive={location.pathname === '/agencies'}
-                className="ml-8"
-              >
-                For Agencies
-              </NavLink>
 
               <div className="relative">
                 <button
@@ -228,23 +214,7 @@ export default function Navbar() {
             }
           >
             FAQ
-          </MobileNavLink>
-          <MobileNavLink
-            to="/merchants"
-            style={{ marginBottom: 0 }}
-            className="mt-1"
-            isActive={location.pathname === '/merchants'}
-          >
-            For Merchants
-          </MobileNavLink>
-          <MobileNavLink
-            to="/agencies"
-            style={{ marginBottom: 0 }}
-            className="mt-1"
-            isActive={location.pathname === '/agencies'}
-          >
-            For Agencies
-          </MobileNavLink>
+          </MobileNavLink>>
           <div
             to="/"
             className="block px-3 py-2 mt-1 text-base font-medium text-gray-600 transition duration-150 ease-in-out border-l-4 border-transparent hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:bg-gray-50 focus:border-gray-300"
