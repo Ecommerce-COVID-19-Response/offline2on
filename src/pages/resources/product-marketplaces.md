@@ -31,7 +31,3 @@ Below is a list of marketplaces by country and region. You can click on any of t
 1. MyDeal.com.au: [Start Selling Today](https://marketplace.mydeal.com.au/)
 2. Gumtree.com.au: [Join the local revolution](https://www.gumtree.com.au/)
 3. eBid.net: [Sell Online](https://www.ebid.net/au/sell/)
-
-## Getting More Help
-
-If none of these services will work for you or you need help exploring other options, [reach out to us](/merchants) and we will help connect you to a resource or agency that can help!

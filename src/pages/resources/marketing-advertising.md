@@ -52,7 +52,3 @@ Learn more about [setting up your Yelp For Business Account](https://www.yelp-su
 Mailchimp is a simple yet effective email marketing platform. You can communicate  with anyone who gives you permission (and their email address!) using Mailchimp. Easily create welcome emails, automate abandoned cart emails, and offer personalized product recommendations. Mailchimp campaigns can be automated, so there is minimal effort or need to remember to push campaigns. Plus, Mailchimp integrates with most popular e-commerce platforms and point of sale systems. 
 
 Learn more about [setting up a Mailchimp account](https://mailchimp.com/resources/getting-started-with-mailchimp/). 
-
-## Getting More Help
-
-If you’re looking for guidance or assistance with setting up your own marketing  and advertising, please [reach out to us](/merchants) and we will help connect  you to a resource or agency that can help!

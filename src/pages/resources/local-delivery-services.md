@@ -44,7 +44,3 @@ DeliverDirect has put together [a helpful list of all food delivery services in 
 2. [Foodora](https://partner.foodora.ca/)
 3. [Skipthedishes.com](https://restaurants.skipthedishes.com/application?hl=fr)
 4. [Uber Eats](https://www.ubereats.com/restaurant/en-US/signup)
-
-## Getting More Help
-
-If none of these services will work for you, or you need help exploring other options, [reach out to us](/merchants) and we will help connect you to a resource or agency that can help!

@@ -126,7 +126,3 @@ If you’re feeling confused and still need some help with this, just [fill out 
 
 ## Choose a Platform
 See [E-commerce Platforms](/resources/ecommerce-platforms) for more information on choosing a platform.
-
-## Getting More Help
-
-If you are feeling overwhelmed and could use some guidance through this process, [reach out to us](/merchants) and we will help connect you to a resource or agency that can help!
