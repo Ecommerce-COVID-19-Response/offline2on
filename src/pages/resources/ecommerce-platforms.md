@@ -120,3 +120,4 @@ The list below are some of the more popular mid-market/enterprise platforms. Gen
 * [Shopify Plus](https://www.shopify.com/plus)
 * [Shopware](https://www.shop-ware.com/)
 * [SuiteCommerce](https://www.netsuite.com/portal/products/ecommerce/products/ecommerce.shtml)
+* [Solidus](https://solidus.io/)
